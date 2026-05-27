@@ -3,41 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenue sur mon site</title>
+    <title>Mon Hub de Pages</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', sans-serif;
             background-color: #f4f7f6;
             color: #333;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            height: 100vh;
+            padding: 50px 20px;
             margin: 0;
-        }
-        .container {
-            text-align: center;
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
         }
         h1 {
             color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 2.5rem;
+            margin-bottom: 30px;
         }
-        p {
-            color: #7f8c8d;
-            font-size: 1.2rem;
-            margin-top: 0;
+        #menu-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .btn-page {
+            display: block;
+            background-color: #3498db;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        .btn-page:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Bienvenue sur mon site !</h1>
-        <p>Le site est actuellement en construction. Restez connectés !</p>
-    </div>
+
+    <h1>Bienvenue sur le site expérimental de publications de newsletters</h1>
+    <p>Sélectionnez une page ci-dessous :</p>
+
+    <div id="menu-container"></div>
+
+    <script>
+        // C'EST ICI QU'IL FAUT METTRE LA LISTE DE TES PAGES
+        // (Le script Bash ci-dessous peut la mettre à jour tout seul)
+        const mesPages = ['veille_medicale.html', ];
+
+        const container = document.getElementById('menu-container');
+
+        // On boucle sur chaque page pour créer un bouton
+        mesPages.forEach(page => {
+            const bouton = document.createElement('a');
+            bouton.href = page;
+            bouton.className = 'btn-page';
+            
+            // Nettoyage du nom pour le bouton (ex: "page1.html" -> "Page1")
+            const nomPropre = page.replace('.html', '').toUpperCase();
+            bouton.textContent = `Aller sur ${nomPropre}`;
+            
+            container.appendChild(bouton);
+        });
+    </script>
 </body>
 </html>
