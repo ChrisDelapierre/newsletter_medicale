@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<veille_sante generated="2026-06-12T08:31:45.972975" total_articles="91">
+  <metadonnees>
+    <date_generation>2026-06-12 08:31</date_generation>
+    <sources_suivies>ActuSoins, What's Up Doc, Infirmiers.com, Espace Infirmier, Hospimedia, Directions.fr</sources_suivies>
+    <bareme_score>{
+  "ehpad": 15,
+  "retraite": 15,
+  "salaire": 15,
+  "rémunération": 15,
+  "pénurie": 15,
+  "recrutement": 10,
+  "personnel": 10,
+  "aide soignant": 10,
+  "as/": 10,
+  "as ": 10,
+  "infirmier": 5,
+  "infirmière": 5,
+  "ide ": 5,
+  "médecin": 5,
+  "docteur": 5,
+  "condition de travail": 5,
+  "qualité de vie": 5,
+  "burn-out": 5,
+  "épuisement": 5,
+  "contrat": 5,
+  "contractuel": 5,
+  "formation": 5,
+  "diplôme": 5,
+  "hôpital": 3,
+  "hospitalier": 3,
+  "médico-social": 3,
+  "établissement": 2,
+  "réforme": 3,
+  "loi": 2,
+  "décret": 3,
+  "grève": 5,
+  "mouvement": 2
+}</bareme_score>
+  </metadonnees>
+  <articles>
+    <article id="1" score="58" priorite="haute">
+      <titre>Urgences psychiatriques de Sainte-Anne : les infirmiers en grève</titre>
+      <url>https://www.actusoins.com/urgences-psychiatriques-de-sainte-anne-les-infirmiers-en-greve.html</url>
+      <source>ActuSoins</source>
+      <date_publication>Wed, 03 Jun 2026 15:02:18 +0000</date_publication>
+      <description>L’équipe paramédicale du CPOA de l’hôpital Sainte-Anne à Paris est en grève depuis le 26 mai. Les soignants dénoncent des conditions d’accueil dégradées, avec des patients dormant sur des matelas par terre, en raison d’un manque de moyens et de lits. Ils demandent plus de personnel et la réouverture</description>
+      <mots_cles_identifies>
+        <mot_cle>personnel</mot_cle>
+        <mot_cle>as </mot_cle>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>hôpital</mot_cle>
+        <mot_cle>grève</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories>
+        <categorie>A LA UNE</categorie>
+        <categorie>grève</categorie>
+        <categorie>hôpital Sainte-Anne</categorie>
+        <categorie>Psychiatrie</categorie>
+        <categorie>Urgences</categorie>
+        <categorie>urgences psychiatriques</categorie>
+      </categories>
+    </article>
+    <article id="2" score="55" priorite="haute">
+      <titre>Ebola : les infirmières en première ligne, particulièrement exposées</titre>
+      <url>http://www.infirmiers.com/profession-ide/international/ebola-les-infirmieres-en-premiere-ligne-particulierement-exposees</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 02 Jun 2026 11:30:00 +0200</date_publication>
+      <description>Le Conseil international des infirmières s'alarme d'une situation particulièrement préoccupante en République démocratique du Congo, où sévit depuis la mi-mai une épidémie du virus Ebola. Les infirmières, en première ligne face aux malades, sont mal protégées contre la contagion et donc particulière</description>
+      <mots_cles_identifies>
+        <mot_cle>pénurie</mot_cle>
+        <mot_cle>personnel</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="3" score="51" priorite="haute">
+      <titre>Évolution des compétences infirmières : une étude de la MACSF pointe les réserves des professionnels de santé</titre>
+      <url>https://www.actusoins.com/evolution-des-competences-infirmieres-une-etude-de-la-macsf-pointe-les-reserves-des-professionnels-de-sante.html</url>
+      <source>ActuSoins</source>
+      <date_publication>Wed, 03 Jun 2026 08:25:52 +0000</date_publication>
+      <description>La MACSF a réalisé une étude sur la perception des professionnels de santé concernant l'évolution des compétences infirmières suite à un décret de 2025. Bien que les infirmiers accueillent favorablement cette réforme, des attentes en matière de formation et de clarification des responsabilités émerg</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>médecin</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>réforme</mot_cle>
+        <mot_cle>décret</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories>
+        <categorie>Vie professionnelle</categorie>
+        <categorie>compétences infirmières</categorie>
+        <categorie>évolution des compétences infirmières</categorie>
+        <categorie>infirmiers en pratique avancée</categorie>
+        <categorie>MACSF</categorie>
+        <categorie>rôle propre infirmier</categorie>
+      </categories>
+    </article>
+    <article id="4" score="45" priorite="haute">
+      <titre>Maisons de santé pluriprofessionnelles : pourquoi refuser de signer l’avenant n°2 de l’accord</titre>
+      <url>http://www.infirmiers.com/profession-ide/maisons-de-sante-pluriprofessionnelles-pourquoi-refuser-de-signer-lavenant-ndeg2-de-laccord</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Mon, 08 Jun 2026 12:30:05 +0200</date_publication>
+      <description>Le syndicat d’infirmiers libéraux Convergence Infirmière vient d’annoncer qu’il ne signera pas l’avenant n°2 à l’Accord conventionnel interprofessionnel (ACI) des maisons de santé pluriprofessionnelles (MSP). Dans un communiqué publié à l’issue des négociations autour de l’avenant n°2 à l’ACI des ma</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="5" score="45" priorite="haute">
+      <titre>ATTIRER LES PROFESSIONNELS DE SANTÉ, UNE PERSPECTIVE GÉNÉRATIONNELLE</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/attirer-les-professionnels-de-sante-une-perspective-generationnelle.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, May 19 13:49:00 CEST 2026</date_publication>
+      <description>Solliciter des jeunes professionnels pour co-construire un questionnaire et en interpréter les données permet d’identifier des facteurs d’attractivité et d’offrir des pistes de réflexion intéressantes en termes de politique de recrutement. Un article de Florence Moncorps, élève directeur des soins, </description>
+      <mots_cles_identifies>
+        <mot_cle>recrutement</mot_cle>
+        <mot_cle>docteur</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="6" score="45" priorite="haute">
+      <titre>INFIRMIÈRES PUÉRICULTRICES : À QUAND UN EXERCICE À LA HAUTEUR DES COMPÉTENCES ?</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/infirmiares-puaricultrices-a-quand-un-exercice-a-la-hauteur-des-compatences.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, May 5 16:10:00 CEST 2026</date_publication>
+      <description>Avec leur année de formation supplémentaire, les infirmières puéricultrices représentent les spécialistes de la prise en charge des bébés, des enfants et des adolescents. Pour autant, la place qui leur est accordée dans le système de santé ne reflète pas l’étendue de leurs champs de compétences. Une</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="7" score="43" priorite="haute">
+      <titre>« Au bord du monde »: un film qui interroge la relation de soin en psychiatrie</titre>
+      <url>http://www.infirmiers.com/profession-ide/au-bord-du-monde-un-film-qui-interroge-la-relation-de-soin-en-psychiatrie</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 09 Jun 2026 14:30:05 +0200</date_publication>
+      <description>"Au bord du monde" est un film belge réalisé par Guérin van de Vorst et Sophie Muselle, qui retrace le parcours d’une jeune infirmière stagiaire en hôpital psychiatrique. Ce long-métrage aborde les enjeux de la relation de soin en santé mentale et questionne la place de l’institution dans l’accompag</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>hôpital</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="8" score="43" priorite="haute">
+      <titre>Études infirmières: la réforme doit renforcer la formation clinique et mieux protéger les étudiants</titre>
+      <url>http://www.infirmiers.com/etudiants/etudes-infirmieres-la-reforme-doit-renforcer-la-formation-clinique-et-mieux-proteger-les-etudiants</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Wed, 13 May 2026 09:15:00 +0200</date_publication>
+      <description>Quels grands changements se profilent avec la réforme des études infirmières prévue pour septembre 2026? Quels en sont encore les points de discussion et les points d'achoppement? Damien Sarmeo, président de la Fédération Nationale des Étudiantes et Étudiants Infirmiers (FNESI) a répondu à nos quest</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>réforme</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="9" score="42" priorite="haute">
+      <titre>SOINS INFIRMIERS : MUTATION UNIVERSITAIRE DE LA FORMATION</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/soins-infirmiers-mutation-universitaire-de-la-formation.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, Apr 21 17:13:00 CEST 2026</date_publication>
+      <description>L’évolution de la formation initiale en soins infirmiers est intimement liée à celle de la profession infirmière actée dans la loi de juin 2025. Si les enseignements vont s’adapter, sur le terrain les professionnels et les services devront également tenir compte des nouveaux enjeux.</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>loi</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="10" score="42" priorite="haute">
+      <titre>ENTRÉE EN EHPAD : PRÉPARER LA TRANSITION DES PERSONNES SOUFFRANT DE TROUBLES PSYCHIQUES</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/entree-en-ehpad-preparer-la-transition-des-personnes-souffrant-de-troubles-psychiques.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Mon, Mar 30 11:43:00 CEST 2026</date_publication>
+      <description>Pour les personnes âgées souffrant d’un handicap psychique, le passage du domicile vers un Établissement d’hébergement pour personnes âgées dépendantes (Ehpad) peut être particulièrement complexe et traumatisant. Les équipes doivent en tenir compte pour offrir un accompagnement optimal.</description>
+      <mots_cles_identifies>
+        <mot_cle>ehpad</mot_cle>
+        <mot_cle>établissement</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="11" score="40" priorite="haute">
+      <titre>Quand le cadre donne du sens au travail de ses équipes</titre>
+      <url>http://www.infirmiers.com/services/cadre-de-sante/quand-le-cadre-donne-du-sens-au-travail-de-ses-equipes</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Thu, 11 Jun 2026 15:30:05 +0200</date_publication>
+      <description>Il n’y a pas de qualité de vie au travail sans qualité du travail. Tel a été le discours du Pr Detchessahar lors du Congrès des cadres organisé à Nîmes récemment sur le thème du sens au travail. Il a conseillé notamment de ne pas négliger la régulation pour assoir sa posture de porteur de sens. A l’</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+        <mot_cle>qualité de vie</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="12" score="40" priorite="haute">
+      <titre>Promouvoir le leadership et l'attractivité de la profession, des priorités pour l'Ordre infirmier</titre>
+      <url>http://www.infirmiers.com/profession-ide/promouvoir-le-leadership-et-lattractivite-de-la-profession-des-priorites-pour-lordre-infirmier</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 05 Jun 2026 09:15:00 +0200</date_publication>
+      <description>Alain Desbouchages, président de l'Ordre National Infirmier revient sur les grandes avancées entérinées par la loi infirmière et leur mise en application dans la pratique. Il souligne aussi les enjeux majeurs pour l'Ordre: garantir l'accès aux soins, promouvoir le leadership infirmier, lutter contre</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>loi</mot_cle>
+        <mot_cle>décret</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="13" score="40" priorite="haute">
+      <titre>40 notions pour penser la régulation et le financement des établissements de santé</titre>
+      <url>http://www.infirmiers.com/services/cadre-de-sante/40-notions-pour-penser-la-regulation-et-le-financement-des-etablissements-de-sante</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Mon, 18 May 2026 17:00:05 +0200</date_publication>
+      <description>En publiant le "Glossaire d’économie de la santé", les Presses de l’EHESP permettent aux cadres de santé et gestionnaires hospitaliers de mieux appréhender les notions de financement et de régulation des budgets attribués aux établissements de santé. Il s’adresse à tous ceux qui veulent penser l’éco</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+        <mot_cle>hospitalier</mot_cle>
+        <mot_cle>établissement</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="14" score="40" priorite="haute">
+      <titre>#MortelTonTaf : un site et une web-série dédiés à la prévention des jeunes professionnels</titre>
+      <url>http://www.infirmiers.com/services/cadre-de-sante/morteltontaf-un-site-et-une-web-serie-dedies-la-prevention-des-jeunes-professionnels</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 15 May 2026 15:30:00 +0200</date_publication>
+      <description>Parmi les nombreuses actions proposées aux jeunes professionnels entrant dans le milieu du travail, l’Institut National de Recherche et de Sécurité en milieu de travail (INRS) propose le dispositif #MortelTonTaf. Une web-série et un site web proposant un quiz et des fiches thématiques sont les suppo</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="15" score="38" priorite="haute">
+      <titre>Mutuelle dans la fonction hospitalière : la proposition du gouvernement indigne les syndicats</titre>
+      <url>http://www.infirmiers.com/profession-ide/actualite-sociale/mutuelle-dans-la-fonction-hospitaliere-la-proposition-du-gouvernement-indigne-les-syndicats</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Wed, 10 Jun 2026 11:30:00 +0200</date_publication>
+      <description>Les syndicats de la fonction publique hospitalière ont écrit ensemble au Premier ministre Sébastien Lecornu pour dénoncer la faiblesse des propositions gouvernementales sur la future protection complémentaire santé des 1,2 million de personnels des hôpitaux et Ehpad publics. Pour les syndicats hospi</description>
+      <mots_cles_identifies>
+        <mot_cle>ehpad</mot_cle>
+        <mot_cle>personnel</mot_cle>
+        <mot_cle>as </mot_cle>
+        <mot_cle>hospitalier</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="16" score="38" priorite="haute">
+      <titre>"Les infirmiers de sapeurs-pompiers sont aussi motivés à faire de la recherche"</titre>
+      <url>http://www.infirmiers.com/ipa-specialites/recherche-et-bibliographie/les-infirmiers-de-sapeurs-pompiers-sont-aussi-motives-faire-de-la-recherche</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Mon, 08 Jun 2026 09:15:00 +0200</date_publication>
+      <description>Frédéric Lemoine est infirmier major à la Brigade des sapeurs-pompiers de Paris. Pour son étude menée sur la ventilation manuelle, dans la prise en charge des arrêts cardiaques en pré-hospitalier, il a reçu le prix du « Coup de cœur du jury » du Prix de la recherche en sciences infirmières. Une dist</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>hospitalier</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="17" score="38" priorite="haute">
+      <titre>Un décret pour mieux gérer le contrôle des arrêts de travail et des mesures d'aménagement</titre>
+      <url>http://www.infirmiers.com/droit-et-pratique/un-decret-pour-mieux-gerer-le-controle-des-arrets-de-travail-et-des-mesures-damenagement</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 05 Jun 2026 17:00:05 +0200</date_publication>
+      <description>Un nouveau décret a été publié au Journal Officiel qui encadre les échanges entre la médecine du travail et les organismes de contrôle médical. Ce texte cible notamment les arrêts de travail et les mesures d’aménagement du temps de travail. Le Ministère du Travail et des Solidarités a publié le décr</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>décret</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="18" score="38" priorite="haute">
+      <titre>Le CEFIEC mobilisé pour préparer la réforme infirmière de 2026</titre>
+      <url>http://www.infirmiers.com/profession-ide/le-cefiec-mobilise-pour-preparer-la-reforme-infirmiere-de-2026</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 29 May 2026 17:30:05 +0200</date_publication>
+      <description>Réunis à Biarritz pour les 80èmes Journées Nationales d’Étude, les acteurs de la formation infirmière ont échangé autour de la future réforme des études infirmières. À quelques mois de l’entrée en vigueur du nouveau référentiel de formation infirmière, les acteurs de la formation était réuni à Biarr</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>réforme</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="19" score="35" priorite="haute">
+      <titre>Intelligence artificielle (IA) : les infirmiers en quête du bon usage</titre>
+      <url>https://www.actusoins.com/ia-intelligence-artificielle-les-infirmiers-en-quete-du-bon-usage.html</url>
+      <source>ActuSoins</source>
+      <date_publication>Mon, 01 Jun 2026 09:34:38 +0000</date_publication>
+      <description>L'intelligence artificielle (IA) commence à transformer le domaine infirmier, avec des usages variés comme les chatbots ou les assistants de tâches. Cependant, il existe une déconnexion entre les outils disponibles et les besoins des infirmiers. Une formation adéquate et l'intégration d'outils spéci</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories>
+        <categorie>A LA UNE</categorie>
+        <categorie>IA</categorie>
+        <categorie>Intelligence artificielle</categorie>
+        <categorie>numérique en santé</categorie>
+        <categorie>santé numérique</categorie>
+      </categories>
+    </article>
+    <article id="20" score="35" priorite="haute">
+      <titre>Création d'un cercle international pour faire émerger les futurs leaders infirmiers francophones</titre>
+      <url>http://www.infirmiers.com/profession-ide/international/creation-dun-cercle-international-pour-faire-emerger-les-futurs-leaders-infirmiers-francophones</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Wed, 13 May 2026 12:00:00 +0200</date_publication>
+      <description>À l’occasion de la Journée internationale des infirmières 2026, dont le thème est cette année : « Nos infirmières. Notre avenir. Le pouvoir d’agir des infirmières sauve des vies », le Secrétariat international des infirmières et infirmiers de l’espace francophone (SIDIIEF) a officialisé la création </description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="21" score="35" priorite="haute">
+      <titre>Face à la hausse des carburants, les syndicats infirmiers défendent un crédit d’impôt</titre>
+      <url>http://www.infirmiers.com/exercice-liberal/le-metier-didel/face-la-hausse-des-carburants-les-syndicats-infirmiers-defendent-un-credit-dimpot</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 12 May 2026 12:00:00 +0200</date_publication>
+      <description>Après un échange avec Stéphanie Rist, la ministre déléguée chargée de l’Organisation territoriale et des Professions de santé, les trois syndicats représentatifs des infirmiers libéraux, la FNI, le Sniil et Convergence Infirmière, demandent la création d’un crédit d’impôt carburant face à l’augmenta</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="22" score="33" priorite="haute">
+      <titre>Vacations : un bon moyen de se positionner avant de s’engager </titre>
+      <url>http://www.infirmiers.com/emploi/vacations-un-bon-moyen-de-se-positionner-avant-de-sengager</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Wed, 10 Jun 2026 09:15:00 +0200</date_publication>
+      <description>Flexibilité, salaire, expérience… Les avantages des missions de vacation sont nombreux. Zoé et Audrey, deux infirmières rodées à ces contrats nous en exposent les intérêts et les défauts. Zoé a 32 ans. Son diplôme d’infirmière en poche, elle a enchaîné les missions de vacation pendant environ une an</description>
+      <mots_cles_identifies>
+        <mot_cle>salaire</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>contrat</mot_cle>
+        <mot_cle>diplôme</mot_cle>
+        <mot_cle>hôpital</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="23" score="33" priorite="haute">
+      <titre>Une instruction pour la réforme de l'indemnisation des astreintes</titre>
+      <url>http://www.infirmiers.com/droit-et-pratique/une-instruction-pour-la-reforme-de-lindemnisation-des-astreintes</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Mon, 01 Jun 2026 17:00:05 +0200</date_publication>
+      <description>Dans le cadre de la réforme de l’indemnisation des astreintes des personnels des établissements publics de santé, la DGOS a publié une instruction pour accompagner les responsables dans sa mise en œuvre. Il s’agit de simplifier, revaloriser et proposer une gradation des rémunérations. La Direction G</description>
+      <mots_cles_identifies>
+        <mot_cle>rémunération</mot_cle>
+        <mot_cle>personnel</mot_cle>
+        <mot_cle>hospitalier</mot_cle>
+        <mot_cle>établissement</mot_cle>
+        <mot_cle>réforme</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="24" score="33" priorite="haute">
+      <titre>AU CŒUR DE L’INSTITUT DE LA SANTÉ DE LA FEMME ET DE LA FERTILITÉ DE L’HÔPITAL FOCH</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/au-coeur-de-l-institut-de-la-sante-de-la-femme-et-de-la-fertilite-de-l-hopital-foch.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, May 19 13:52:00 CEST 2026</date_publication>
+      <description>Ouvert en avril 2025, l’Institut de la santé de la femme et de la fertilité de l’hôpital Foch, situé à Suresnes (Hauts-de Seine), est pensé comme un centre pluridisciplinaire, un lieu global consacré à la santé des femmes. Sa finalité : améliorer leur accès aux soins, réduire l’errance diagnostique </description>
+      <mots_cles_identifies>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>hôpital</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="25" score="32" priorite="haute">
+      <titre>Représentativité des syndicats d’infirmiers libéraux : les élections aux URPS en risque de complexification</titre>
+      <url>https://www.actusoins.com/representativite-des-syndicats-dinfirmiers-liberaux-les-elections-aux-urps-en-risque-de-complexification.html</url>
+      <source>ActuSoins</source>
+      <date_publication>Thu, 04 Jun 2026 08:20:38 +0000</date_publication>
+      <description>Une proposition de loi visant à réviser l'évaluation de la représentativité des syndicats de professionnels de santé libéraux a été examinée, mais un amendement a suscité une forte opposition des syndicats, notamment ceux des infirmiers. Bien que l'amendement ait finalement été rejeté, des inquiétud</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>loi</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories>
+        <categorie>Vie libérale</categorie>
+        <categorie>élections aux URPS</categorie>
+        <categorie>Infirmiers libéraux</categorie>
+        <categorie>URPS</categorie>
+      </categories>
+    </article>
+    <article id="26" score="32" priorite="haute">
+      <titre>Le gouvernement fait de la santé des soignants une priorité "durable"</titre>
+      <url>http://www.infirmiers.com/profession-ide/le-gouvernement-fait-de-la-sante-des-soignants-une-priorite-durable</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Thu, 28 May 2026 16:30:05 +0200</date_publication>
+      <description>Le ministère de la Santé a présenté un plan structuré autour de 13 mesures pour améliorer durablement les conditions d’exercice des professionnels de santé. Santé mentale, prévention, risques professionnels ou accompagnement des étudiants, l’exécutif veut inscrire la santé des soignants comme un enj</description>
+      <mots_cles_identifies>
+        <mot_cle>épuisement</mot_cle>
+        <mot_cle>établissement</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="27" score="32" priorite="haute">
+      <titre>Journées nationales des Cadres de Santé 2026: les inscriptions sont ouvertes!</titre>
+      <url>http://www.infirmiers.com/services/cadre-de-sante/journees-nationales-des-cadres-de-sante-2026-les-inscriptions-sont-ouvertes</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 22 May 2026 16:30:05 +0200</date_publication>
+      <description>L’édition 2026 des Journées nationales des Cadres de Santé (JNCS) se tiendront les 23 et 24 novembre 2026 à la Cité des Congrès de Nantes. Pour aider les managers de santé à naviguer dans un environnement en transformation, cet événement fera la promotion de l’alliance entre les intelligences humain</description>
+      <mots_cles_identifies>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>loi</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="28" score="30" priorite="haute">
+      <titre>Vaccination des soignants contre la grippe : l’Académie de médecine à nouveau pour l’obligation</titre>
+      <url>https://www.actusoins.com/vaccination-des-soignants-contre-la-grippe-lacademie-de-medecine-a-nouveau-pour-lobligation.html</url>
+      <source>ActuSoins</source>
+      <date_publication>Fri, 29 May 2026 07:19:29 +0000</date_publication>
+      <description>L'Académie de médecine recommande l'obligation de vaccination des soignants contre la grippe, soulignant la gravité de la maladie et l'efficacité du vaccin. Les faibles taux de vaccination parmi les professionnels de santé en France posent problème. Cette mesure serait justifiée sur des bases éthiqu</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories>
+        <categorie>Vie professionnelle</categorie>
+        <categorie>Vaccination des soignants contre la grippe</categorie>
+      </categories>
+    </article>
+    <article id="29" score="30" priorite="haute">
+      <titre>Classement des spécialités dans le groupe Santé publique, Santé au travail, Médecine légale 2026 </titre>
+      <url>https://www.whatsupdoc-lemag.fr/node/98882</url>
+      <source>What's Up Doc</source>
+      <date_publication>Mon, 09 Feb 2026 15:05:25 +0000</date_publication>
+      <description>Classement des spécialités dans le groupe Santé publique, Santé au travail, Médecine légale 2026 Luc Angevert lun 09/02/2026 - 16:05 Tableau Classement des spécialités dans le groupe Santé publique, Santé au travail, Médecine légale en 2026 Classement Spécialités Rang médian des internes Évolution (</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="30" score="30" priorite="haute">
+      <titre>Classement des spécialités dans le groupe Psychiatrie, Neurologie, Médecine Physique et Réadaptation 2026 </titre>
+      <url>https://www.whatsupdoc-lemag.fr/node/98881</url>
+      <source>What's Up Doc</source>
+      <date_publication>Mon, 09 Feb 2026 15:04:18 +0000</date_publication>
+      <description>Classement des spécialités dans le groupe Psychiatrie, Neurologie, Médecine Physique et Réadaptation 2026 Luc Angevert lun 09/02/2026 - 16:04 Tableau Classement des spécialités dans le groupe Psychiatrie, Neurologie, Médecine Physique et Réadaptation en 2026 Classement Spécialités Rang médian des in</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="31" score="30" priorite="haute">
+      <titre>Paris accueille le Congrès européen des infirmières puéricultrices</titre>
+      <url>http://www.infirmiers.com/profession-ide/paris-accueille-le-congres-europeen-des-infirmieres-puericultrices</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Wed, 03 Jun 2026 23:53:38 +0200</date_publication>
+      <description>Pour la première fois, les Journées nationales d’étude de l’Association nationale des puéricultrices diplômées d’État (ANPDE) se tiennent en parallèle du Congrès européen de la profession (PNAE). Une édition marquée par les évolutions récentes de la profession infirmière et les réflexions sur l’aven</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="32" score="30" priorite="haute">
+      <titre>Infirmier(ère) à la protection judiciaire de la jeunesse, une expertise santé au service de l’insertion </titre>
+      <url>http://www.infirmiers.com/services/idees-et-solutions/infirmierere-la-protection-judiciaire-de-la-jeunesse-une-expertise-sante-au-service-de-linsertion</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Mon, 18 May 2026 09:30:00 +0200</date_publication>
+      <description>Dans le cadre de l’ouverture de nouveau lieux d’hébergement pour les mineurs suivis par la justice, la protection judiciaire de la jeunesse (PJJ) recrute des infirmiers(ères). Intégrés aux équipes éducatives des unités judiciaires à priorité éducative (UJPE), qui ouvriront le 1er septembre prochain,</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="33" score="30" priorite="haute">
+      <titre>LA PRATIQUE INFIRMIÈRE AVANCÉE AU SERVICE DES « UTILISATEURS FRÉQUENTS DES URGENCES »</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/la-pratique-infirmiere-avancee-au-service-des-utilisateurs-frequents-des-urgences.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Mon, Jun 1 18:20:00 CEST 2026</date_publication>
+      <description>Quelle prise en charge spécifique peut être apportée aux patients désignés comme « Utilisateurs Fréquents des Urgences » ? Pour répondre à cette question cruciale, l’Institut de cardiologie de Montréal s’appuie sur les IPA, qui assurent une évaluation approfondie, une coordination renforcée, une col</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="34" score="30" priorite="haute">
+      <titre>PRÉVENTION DES VIOLENCES : LES BONS RÉFLEXES</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/prevention-des-violences-les-bons-reflexes.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, May 5 15:44:00 CEST 2026</date_publication>
+      <description>Même si elle se rend au domicile de ses patients depuis plusieurs années, l’infirmière libérale se doit de rester vigilante. Environnement extérieur et intérieur, état d’esprit du patient : elle doit effectuer un état des lieux complet, afin de s’assurer qu’elle se trouve en sécurité.</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="35" score="29" priorite="haute">
+      <titre>Violences sexistes et sexuelles au travail : les hôpitaux organisent la riposte</titre>
+      <url>https://www.actusoins.com/violences-sexistes-et-sexuelles-au-travail-les-hopitaux-organisent-la-riposte.html</url>
+      <source>ActuSoins</source>
+      <date_publication>Thu, 28 May 2026 09:11:30 +0000</date_publication>
+      <description>Les professions de santé subissent des violences sexistes et sexuelles (VSS), incitant les établissements à agir. Depuis le mouvement #MeTooSanté, initié en 2024, des plans d'action ont été mis en œuvre pour améliorer la sensibilisation, faciliter les signalements et protéger les victimes. Cependant</description>
+      <mots_cles_identifies>
+        <mot_cle>établissement</mot_cle>
+        <mot_cle>mouvement</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories>
+        <categorie>Vie professionnelle</categorie>
+        <categorie>violences en santé</categorie>
+        <categorie>violences faites aux femmes</categorie>
+        <categorie>violences sexistes</categorie>
+        <categorie>violences sexistes et sexuelles</categorie>
+        <categorie>violences sexistes et sexuelles (VSS)</categorie>
+        <categorie>violences sexuelles</categorie>
+        <categorie>VSS</categorie>
+      </categories>
+    </article>
+    <article id="36" score="28" priorite="haute">
+      <titre>Pour un système de santé centré sur la prévention</titre>
+      <url>http://www.infirmiers.com/services/cadre-de-sante/pour-un-systeme-de-sante-centre-sur-la-prevention</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Wed, 03 Jun 2026 09:15:00 +0200</date_publication>
+      <description>Un livre blanc publié récemment présente une réforme du système de santé tourné vers la prévention. Il met en lumière un nouveau métier, l’agent de santé communautaire, qui pourrait constituer un débouché possible pour un transfert d’activité des cadres de santé. La crise récurrente que connait le s</description>
+      <mots_cles_identifies>
+        <mot_cle>réforme</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="37" score="28" priorite="haute">
+      <titre>Les cadres, malheureusement absents du plan pour la santé des soignants</titre>
+      <url>http://www.infirmiers.com/services/cadre-de-sante/les-cadres-malheureusement-absents-du-plan-pour-la-sante-des-soignants</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 29 May 2026 15:30:05 +0200</date_publication>
+      <description>Un nouveau plan pour la santé des soignants vient d’être publié par le ministère. L’action du cadre de santé, pourtant pierre angulaire de l’amélioration des conditions d’exercice des professionnels hospitaliers, y est malheureusement totalement absente. La notion de "santé des professionnels de san</description>
+      <mots_cles_identifies>
+        <mot_cle>hospitalier</mot_cle>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="38" score="27" priorite="haute">
+      <titre>Mesures transitoires: un contrat d'engagement qui ne respecte pas les attentes des IBODE</titre>
+      <url>http://www.infirmiers.com/ipa-specialites/ibode/mesures-transitoires-un-contrat-dengagement-qui-ne-respecte-pas-les-attentes-des-ibode</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Thu, 28 May 2026 11:30:00 +0200</date_publication>
+      <description>Un arrêté relatif au contrat d'engagement, qui doit cadrer l'application des mesures transitoires, suscite l'opposition d'une partie des infirmiers de bloc opératoire. En cause, son manque de transparence, mais également l'absence de sanction pour les établissements qui n'enverraient pas leurs infir</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>contrat</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>établissement</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="39" score="26" priorite="haute">
+      <titre>La réforme infirmière globalement bien accueillie mais très attendue  sur le terrain</titre>
+      <url>http://www.infirmiers.com/profession-ide/la-reforme-infirmiere-globalement-bien-accueillie-mais-tres-attendue-sur-le-terrain</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Thu, 21 May 2026 15:00:00 +0200</date_publication>
+      <description>La MACSF vient de publier les résultats d’une étude consacrée à l’évolution de la profession infirmière, menée auprès de 890 professionnels de santé (infirmiers, médecins, étudiants et cadres de santé). Réalisée du 6 au 16 février 2026, cette enquête vise à mesurer la perception des orientations int</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>médecin</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>réforme</mot_cle>
+        <mot_cle>décret</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="40" score="25" priorite="haute">
+      <titre>Les relations manager-managé au coeur des crises du travail</titre>
+      <url>http://www.infirmiers.com/services/cadre-de-sante/les-relations-manager-manage-au-coeur-des-crises-du-travail</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 09 Jun 2026 17:00:05 +0200</date_publication>
+      <description>Les relations manager-managé seraient responsables, selon les spécialistes, de la crise du travail actuelle. Un article du site «Courrier Cadres» cible le métier, l’entreprise et le projet comme vecteurs principaux d’amélioration. Un article publié sur la plateforme «Courrier Cadres» met en avant le</description>
+      <mots_cles_identifies>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="41" score="25" priorite="haute">
+      <titre>Urgences : le gouvernement veut réduire de moitié les passages évitables</titre>
+      <url>http://www.infirmiers.com/profession-ide/urgences-le-gouvernement-veut-reduire-de-moitie-les-passages-evitables</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Sun, 07 Jun 2026 14:07:44 +0200</date_publication>
+      <description>Face à une pression persistante dans les services d’urgence, le gouvernement dévoile une nouvelle stratégie nationale visant à diminuer les recours évitables. L’objectif affiché est ambitieux: éviter près de 4 millions de passages par an grâce à de nouvelles alternatives de prise en charge, une meil</description>
+      <mots_cles_identifies>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="42" score="25" priorite="haute">
+      <titre>Urgences : des temps de passage jusqu'à 3 heures plus longs qu’il y a 10 ans</titre>
+      <url>http://www.infirmiers.com/urgences-des-temps-de-passage-jusqua-3-heures-plus-longs-quil-y-10-ans</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 05 Jun 2026 12:30:05 +0200</date_publication>
+      <description>Deux études publiées par la Direction de la recherche, des études, de l’évaluation et des statistiques (Drees) dressent un état des lieux des délais aux urgences en 2023. Dix ans après la précédente enquête nationale, les résultats mettent en évidence un allongement des temps de passage pour l’ensem</description>
+      <mots_cles_identifies>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="43" score="25" priorite="haute">
+      <titre>Pénurie de soignants : l’Italie recrute à tout va à l’étranger</titre>
+      <url>http://www.infirmiers.com/profession-ide/penurie-de-soignants-litalie-recrute-tout-va-letranger</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Mon, 01 Jun 2026 09:15:00 +0200</date_publication>
+      <description>Confrontée à une pénurie désormais chronique de soignants, l’Italie recrute à l’étranger. La péninsule se tourne vers Amérique Latine, l’Asie et les Balkans, pour recruter des médecins et des infirmiers. Mais si cette solution répond à l’urgence, elle révèle un peu plus les failles structurelles qui</description>
+      <mots_cles_identifies>
+        <mot_cle>pénurie</mot_cle>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>médecin</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="44" score="25" priorite="haute">
+      <titre>Le point sur la santé sexuelle des Français</titre>
+      <url>http://www.infirmiers.com/profession-ide/le-point-sur-la-sante-sexuelle-des-francais</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 26 May 2026 09:15:00 +0200</date_publication>
+      <description>Éducation à la sexualité, dysfonctions, contraception ou dépistage : Santé publique France dresse un état des lieux contrasté des sexualités en France, à partir des données de l’enquête CSF-2023. Les données de l’enquête nationale CSF-2023 confirment que l’éducation à la vie affective, relationnelle</description>
+      <mots_cles_identifies>
+        <mot_cle>★ multi-source</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="45" score="25" priorite="haute">
+      <titre>Prestations retraite : les IDEL dénoncent des délais trop longs</titre>
+      <url>http://www.infirmiers.com/exercice-liberal/le-metier-didel/prestations-retraite-les-idel-denoncent-des-delais-trop-longs</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 19 May 2026 19:50:26 +0200</date_publication>
+      <description>Selon un communiqué de Convergence Infirmière, de nombreux infirmiers libéraux affiliés à la CARPIMKO (Caisse Autonome de Retraite et de Prévoyance des infirmièr·es) continuent de subir d’importants retards dans le traitement de leurs dossiers et le versement de certaines prestations. Les difficulté</description>
+      <mots_cles_identifies>
+        <mot_cle>retraite</mot_cle>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="46" score="25" priorite="haute">
+      <titre>SANS FORMATION IDE PSYCHIATRIQUE, L’AMÉLIORATION CLINIQUE DES PATIENTS EST RALENTIE</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/sans-formation-ide-psychiatrique-l-amelioration-clinique-des-patients-est-ralentie.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Fri, May 29 15:12:00 CEST 2026</date_publication>
+      <description>Après des mois d’attente, le nouvel arrêté réformant la formation infirmière est paru le 25 février 2026. Mais pour Annick Perrin-Niquet, présidente du CEFI-Psy (Comité d’Études des Formations infirmières en Psychiatrie), interviewée par Éléonore de Vaumas pour L’INFIRMIÈR.E, la place accordée à la </description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>ide </mot_cle>
+        <mot_cle>formation</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="47" score="22" priorite="haute">
+      <titre>Dans l’arrière-boutique des soignants</titre>
+      <url>http://www.infirmiers.com/services/culture-et-sante/dans-larriere-boutique-des-soignants</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 29 May 2026 09:15:05 +0200</date_publication>
+      <description>Une enquête sur le mystère du placebo, la réalité de l’apprentissage infirmier et les coulisses d’un laboratoire d’analyse: nos livres du mois dévoilent l’arrière-boutique du soignant. Placebo, de Richard Monvoisin, Léo Druart et Nicolas Pinsault (Les Arènes) Des origines de la médecine aux dernière</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>médecin</mot_cle>
+        <mot_cle>loi</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="48" score="20" priorite="haute">
+      <titre>DEUX FILMS À VOIR</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/deux-films-a-voir.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, May 19 13:38:00 CEST 2026</date_publication>
+      <description>Deux films de réalisatrices qui s'inspirent de leur vécu personnel pour raconter les liens d'une famille lorsqu'un membre est handicapé, sourd pour l'un et déficient mental pour l'autre. En somme, comment faire famille dans une société qui n'inclut pas encore assez la différence.</description>
+      <mots_cles_identifies>
+        <mot_cle>personnel</mot_cle>
+        <mot_cle>as </mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="49" score="18" priorite="moyenne">
+      <titre>Prévenir la crise suicidaire au plus près du terrain </titre>
+      <url>http://www.infirmiers.com/profession-ide/prevenir-la-crise-suicidaire-au-plus-pres-du-terrain</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 22 May 2026 09:15:00 +0200</date_publication>
+      <description>Lauréat du Prix de la Recherche en Sciences Infirmières 2026 dans la catégorie «Jeune chercheur», Benoît Chalancon, infirmier hospitalier, est distingué pour ses travaux consacrés aux interventions brèves en prévention du suicide et à leurs mécanismes d’action. Menés entre urgences psychiatriques, c</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>ide </mot_cle>
+        <mot_cle>hospitalier</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="50" score="17" priorite="moyenne">
+      <titre>La formation infirmière trouve bien sa place à l'université</titre>
+      <url>http://www.infirmiers.com/etudiants/admission-et-cursus-en-ifsi/la-formation-infirmiere-trouve-bien-sa-place-luniversite</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Thu, 04 Jun 2026 09:15:00 +0200</date_publication>
+      <description>Dans une enquête, la Fédération nationale des étudiants en sciences infirmières (FNESI) note l'intérêt des expérimentations mises en place par certaines universités pour intégrer la formation infirmière dans leur structure, mais identifie plusieurs failles qui pèsent encore sur le processus. Les exp</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>ide </mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>établissement</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="51" score="17" priorite="moyenne">
+      <titre>IDELS : UN AVENANT… FAUTE DE MIEUX</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/idels-un-avenant-faute-de-mieux.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, Apr 7 12:01:00 CEST 2026</date_publication>
+      <description>L’Assurance maladie et les syndicats d’Idels ont signé la semaine dernière un avenant à la convention qui les lie. Ce texte comporte des revalorisations, intègre de nouvelles missions à la suite de la loi infirmière, mais n’est pas sans générer une certaine frustration.</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>loi</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="52" score="16" priorite="moyenne">
+      <titre>Une unité mobile pour un retour plus rapide des prématurés à domicile</titre>
+      <url>http://www.infirmiers.com/profession-ide/une-unite-mobile-pour-un-retour-plus-rapide-des-prematures-domicile</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 26 May 2026 12:00:05 +0200</date_publication>
+      <description>L’Unité mobile de néonatalogie du centre hospitalier de Saint-Denis (Seine-Saint-Denis), composée de trois infirmières, un pédiatre et une secrétaire, permet aux enfants nés prématurément de retrouver le confort de leur domicile plus rapidement. Environ 55 000 enfants naissent prématurément chaque a</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>ide </mot_cle>
+        <mot_cle>hôpital</mot_cle>
+        <mot_cle>hospitalier</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="53" score="15" priorite="moyenne">
+      <titre>Infirmier référent : le décret fixant les missions est enfin publié</titre>
+      <url>http://www.infirmiers.com/profession-ide/competence-et-role-propre/infirmier-referent-le-decret-fixant-les-missions-est-enfin-publie</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Wed, 27 May 2026 09:15:00 +0200</date_publication>
+      <description>Très attendu par la profession infirmière depuis la publication de la loi Valletoux, qui en créait le statut, le décret fixant les missions de l'infirmier référent est paru au Journal officiel. L'Ordre des infirmiers salue une étape essentielle dans la reconnaissance, plus large, des compétences de </description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>loi</mot_cle>
+        <mot_cle>décret</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="54" score="15" priorite="moyenne">
+      <titre>Une collaboration IPA/infirmier libéral optimise le suivi des plaies tumorales </titre>
+      <url>http://www.infirmiers.com/profession-ide/une-collaboration-ipainfirmier-liberal-optimise-le-suivi-des-plaies-tumorales</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Mon, 18 May 2026 09:15:00 +0200</date_publication>
+      <description>Au centre hospitalier intercommunal de Créteil (CHIC) la prise en charge et le suivi des plaies tumorales mobilise une infirmière en pratique avancée de l’établissement et les infirmiers libéraux du territoire pour un suivi optimal des patients. La prise en charge de la plaie tumorale chez les patie</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>hospitalier</mot_cle>
+        <mot_cle>établissement</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="55" score="13" priorite="moyenne">
+      <titre>Retour sur le Salon infirmier 2026</titre>
+      <url>http://www.infirmiers.com/services/les-grands-dossiers/retour-sur-le-salon-infirmier-2026</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 02 Jun 2026 17:15:36 +0200</date_publication>
+      <description>Pratique professionnelle, nouvelles missions du métier, recherche en soins, innovations, formations et focus sur la santé des soignants: l'édition 2026 du Salon infirmier, les 25 et 26 mars à Paris, a été riche en échanges et en débats sur la réforme en cours d'application et les sujets qui animent </description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>formation</mot_cle>
+        <mot_cle>réforme</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="56" score="10" priorite="moyenne">
+      <titre>La nouvelle présidente du Cefiec, Isabelle Bayle, fixe ses priorités</titre>
+      <url>https://www.actusoins.com/la-nouvelle-presidente-du-cefiec-isabelle-bayle-fixe-ses-priorites.html</url>
+      <source>ActuSoins</source>
+      <date_publication>Thu, 11 Jun 2026 10:12:27 +0000</date_publication>
+      <description>Membre du Comité d’entente des professions infirmières et cadres (Cefiec) depuis plus de 20 ans, et vice-présidente depuis 9 ans, Isabelle Bayle en a été élue la nouvelle présidente le 22 mai. Pour ActuSoins, elle évoque ses priorités pour son mandat. Dans quel contexte avez-vous été élue présidente</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>formation</mot_cle>
+      </mots_cles_identifies>
+      <categories>
+        <categorie>A LA UNE</categorie>
+      </categories>
+    </article>
+    <article id="57" score="10" priorite="moyenne">
+      <titre>English for Nurses: Preventable versus Treatable Mortality</titre>
+      <url>http://www.infirmiers.com/etudiants/anglais-medical/english-nurses-preventable-versus-treatable-mortality</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 12 Jun 2026 09:15:00 +0200</date_publication>
+      <description>Vous trouverez ici tout le vocabulaire utile utile relatif à la prévention et à la mortalité évitable. N'hésitez pas pour bien faire à vous servir du dictionnaire en ligne Wordreference. Les corrigés des exercices sont à retrouver au format PDF, téléchargeables, à la fin de l'article. Activity 1 - L</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="58" score="10" priorite="moyenne">
+      <titre>UNE VOIX S'ÉTEINT, D'AUTRES S'ÉLÈVERONT</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/une-voix-s-eteint-d-autres-s-eleveront.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, May 5 16:38:00 CEST 2026</date_publication>
+      <description>Chers lecteurs, vous tenez entre vos mains le dernier numéro de L’INFIRMIÈR.E. Une explication s’impose : dans un contexte profondément transformé par le numérique et les réseaux sociaux, le titre ne peut malheureusement pas poursuivre sa route car les abonnements et la publicité ne permettent pas d</description>
+      <mots_cles_identifies>
+        <mot_cle>as </mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="59" score="8" priorite="standard">
+      <titre>PUBLICATION AU JO DU DÉCRET INFIRMIER RÉFÉRENT, UNE AVANCÉE IMPORTANTE POUR LE SUIVI DES PATIENTS</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/publication-au-jo-du-decret-infirmier-referent-une-avancee-importante-pour-le-suivi-des-patients.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Mon, Jun 1 18:23:00 CEST 2026</date_publication>
+      <description>Ce texte consacre l’engagement des représentants de la profession pour la reconnaissance de la mission de coordination et de suivi des patients assurée par les infirmiers, dans une logique de professionnel de référence au cœur du parcours de soins. Il apporte un cadre réglementaire clair à une fonct</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+        <mot_cle>décret</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="60" score="8" priorite="standard">
+      <titre>QUAND LES IBODE PRÉPARENT LES FUTURS CHIRURGIENS AU BLOC OPÉRATOIRE</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/quand-les-ibode-preparent-les-futurs-chirurgiens-au-bloc-operatoire.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Mon, Apr 27 14:32:00 CEST 2026</date_publication>
+      <description>La faculté de médecine de Montpellier a mis au point Prépabloc, une unité d'enseignement pluriprofessionnelle qui prépare au bloc les étudiants en médecine, avant l'entrée en stage hospitalier. Les élèves Ibode y font aussi un apprentissage, en intervenant comme tuteurs dans les ateliers pratiques.</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+        <mot_cle>hospitalier</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="61" score="8" priorite="standard">
+      <titre>UNE CELLULE DÉDIÉE AU SUIVI DES PATIENTS ÂGÉS APRÈS UNE CHUTE</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/une-cellule-dediee-au-suivi-des-patients-ages-apres-une-chute.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, Apr 21 17:16:00 CEST 2026</date_publication>
+      <description>À l’hôpital Lyon Sud des Hospices Civils de Lyon (HCL), une Cellule d’Urgence Pour les Personnes Âgées (CUPPA) a été créée en 2019 pour améliorer le suivi gériatrique des patients de plus de 75 ans admis aux urgences après une chute. Composée de deux infirmières et d’un gériatre, elle améliore la qu</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmière</mot_cle>
+        <mot_cle>hôpital</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="62" score="6" priorite="standard">
+      <titre>QUAND L’HÔPITAL S’INSPIRE DE L’HÔTELLERIE POUR L’ACCUEIL DES PATIENTS</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/quand-l-hopital-s-inspire-de-l-hotellerie-pour-l-accueil-des-patients.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Wed, Mar 11 8:36:00 CET 2026</date_publication>
+      <description>Pour améliorer l’accueil réservé à ses patients, le service universitaire d’ophtalmologie du Centre Hospitalier Intercommunal de Créteil (CHIC) s’est rapproché du secteur de l’hôtellerie, afin de partager des conseils à l’ensemble des agents hospitaliers.</description>
+      <mots_cles_identifies>
+        <mot_cle>hôpital</mot_cle>
+        <mot_cle>hospitalier</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="63" score="5" priorite="standard">
+      <titre>Dispositif Prado, pour un accompagnement cadré des sorties d’hospitalisation ?</titre>
+      <url>https://www.actusoins.com/dispositif-prado-pour-un-accompagnement-cadre-des-sorties-dhospitalisation.html</url>
+      <source>ActuSoins</source>
+      <date_publication>Wed, 10 Jun 2026 10:13:16 +0000</date_publication>
+      <description>Le service de retour à domicile Prado, lancé en 2010 par l'Assurance maladie, facilite le suivi des patients après leur hospitalisation pour améliorer leur autonomie et qualité de vie. En 2022, près de 195 000 patients ont bénéficié de ce service, qui s'est élargi à de nouvelles pathologies au fil d</description>
+      <mots_cles_identifies>
+        <mot_cle>qualité de vie</mot_cle>
+      </mots_cles_identifies>
+      <categories>
+        <categorie>Vie libérale</categorie>
+        <categorie>Assurance Maladie</categorie>
+        <categorie>Dispositif Prado</categorie>
+        <categorie>Infirmiers libéraux</categorie>
+        <categorie>PRADO</categorie>
+        <categorie>Programmes de retour à domicile</categorie>
+        <categorie>retour à domicile Prado</categorie>
+      </categories>
+    </article>
+    <article id="64" score="5" priorite="standard">
+      <titre>Troubles des conduites alimentaires : le rôle phare des IPA</titre>
+      <url>https://www.actusoins.com/troubles-des-conduites-alimentaires-le-role-phare-des-ipa.html</url>
+      <source>ActuSoins</source>
+      <date_publication>Tue, 02 Jun 2026 11:57:16 +0000</date_publication>
+      <description>Les Troubles des conduites alimentaires (TCA) touchent environ un million de personnes en France. La journée mondiale du 2 juin sensibilise le public, les soignants et les patients. Les infirmiers en pratique avancée (IPA) jouent un rôle clé dans leur prise en charge à différents stades, de l'évalua</description>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+      </mots_cles_identifies>
+      <categories>
+        <categorie>Vie professionnelle</categorie>
+        <categorie>Consultation</categorie>
+        <categorie>Infirmière en pratique avancée</categorie>
+        <categorie>IPA</categorie>
+        <categorie>prise en charge des patients</categorie>
+        <categorie>TCA</categorie>
+        <categorie>Troubles des conduites alimentaires</categorie>
+        <categorie>troubles du comportement alimentaire</categorie>
+      </categories>
+    </article>
+    <article id="65" score="5" priorite="standard">
+      <titre>Classement des spécialités dans le groupe Spécialités médicales transversales 2026 </titre>
+      <url>https://www.whatsupdoc-lemag.fr/node/98883</url>
+      <source>What's Up Doc</source>
+      <date_publication>Mon, 09 Feb 2026 15:06:25 +0000</date_publication>
+      <description>Classement des spécialités dans le groupe Spécialités médicales transversales 2026 Luc Angevert lun 09/02/2026 - 16:06 Tableau Classement des spécialités dans le groupe Spécialités médicales transversales en 2026 Classement Spécialités Rang médian des internes Évolution (rang vs 2025) 1 Dermatologie</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="66" score="5" priorite="standard">
+      <titre>Classement des spécialités dans le groupe Médecine de l'aigu 2026 </titre>
+      <url>https://www.whatsupdoc-lemag.fr/node/98879</url>
+      <source>What's Up Doc</source>
+      <date_publication>Mon, 09 Feb 2026 14:37:21 +0000</date_publication>
+      <description>Classement des spécialités dans le groupe Médecine de l'aigu 2026 Luc Angevert lun 09/02/2026 - 15:37 Tableau Classement des spécialités dans le groupe Médecine de l'aigu en 2026 Classement Spécialités Rang médian des internes Évolution (rang vs 2025) 1 Anesthésie-réanimation 1234,5 - 2 Médecine int</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="67" score="5" priorite="standard">
+      <titre>Classement des spécialités dans le groupe médecine générale 2026 </titre>
+      <url>https://www.whatsupdoc-lemag.fr/node/98877</url>
+      <source>What's Up Doc</source>
+      <date_publication>Mon, 09 Feb 2026 14:35:43 +0000</date_publication>
+      <description>Classement des spécialités dans le groupe médecine générale 2026 Luc Angevert lun 09/02/2026 - 15:35 Tableau Classement des spécialités dans le groupe Médecine générale en 2026 Classement Spécialité Rang médian des internes Évolution (rang vs 2025) 1 Médecine générale 6410,5 - Année 2025-2026 Groupe</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="68" score="5" priorite="standard">
+      <titre>Classement des spécialités dans le groupe Médecine cardiovasculaire, Médecine vasculaire, Pneumologie, Néphrologie 2026 </titre>
+      <url>https://www.whatsupdoc-lemag.fr/node/98876</url>
+      <source>What's Up Doc</source>
+      <date_publication>Mon, 09 Feb 2026 14:34:23 +0000</date_publication>
+      <description>Classement des spécialités dans le groupe Médecine cardiovasculaire, Médecine vasculaire, Pneumologie, Néphrologie 2026 Luc Angevert lun 09/02/2026 - 15:34 Tableau Classement des spécialités dans le groupe Médecine cardiovasculaire, Médecine vasculaire, Pneumologie, Néphrologie en 2026 Classement Sp</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="69" score="5" priorite="standard">
+      <titre>Classement des spécialités dans le groupe Médecine d'investigation 2 2026 </titre>
+      <url>https://www.whatsupdoc-lemag.fr/node/98875</url>
+      <source>What's Up Doc</source>
+      <date_publication>Mon, 09 Feb 2026 14:33:17 +0000</date_publication>
+      <description>Classement des spécialités dans le groupe Médecine d'investigation 2 2026 Luc Angevert lun 09/02/2026 - 15:33 Tableau Classement des spécialités dans le groupe Médecine d'investigation 2 en 2026 Classement Spécialités Rang médian des internes Évolution (rang vs 2025) 1 Génétique médicale 5929 - 2 Bi</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="70" score="5" priorite="standard">
+      <titre>Classement des spécialités dans le groupe Médecine d'investigation 1 2026 </titre>
+      <url>https://www.whatsupdoc-lemag.fr/node/98874</url>
+      <source>What's Up Doc</source>
+      <date_publication>Mon, 09 Feb 2026 14:31:58 +0000</date_publication>
+      <description>Classement des spécialités dans le groupe Médecine d'investigation 1 2026 Luc Angevert lun 09/02/2026 - 15:31 Tableau Classement des spécialités dans le groupe Médecine d'investigation 1 en 2026 Classement Spécialités Rang médian des internes Évolution (rang vs 2025) 1 Radiologie et imagerie médical</description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="71" score="5" priorite="standard">
+      <titre>En mai, plus de 400 hospitalisations lors du premier épisode de canicule</titre>
+      <url>http://www.infirmiers.com/profession-ide/en-mai-plus-de-400-hospitalisations-lors-du-premier-episode-de-canicule</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 09 Jun 2026 12:00:05 +0200</date_publication>
+      <description>Le premier épisode de canicule de l'année 2026 a été marqué par une hausse des recours aux soins d’urgence dans les cinq régions touchées, à la fin du mois de mai. Un phénomène qui s'explique par la précocité de l'événement et une campagne de prévention qui n'a pu être déployée à temps. 411 et 253. </description>
+      <mots_cles_identifies>
+        <mot_cle>médecin</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="72" score="5" priorite="standard">
+      <titre>URPS : les libéraux en guerre contre une réforme des élections</titre>
+      <url>http://www.infirmiers.com/exercice-liberal/le-metier-didel/urps-les-liberaux-en-guerre-contre-une-reforme-des-elections</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Mon, 01 Jun 2026 11:30:00 +0200</date_publication>
+      <description>Un amendement sénatorial à la proposition de loi réformant la représentativité au sein des Unions régionales des professionnels de santé suscite une opposition générale au sein des différentes organisations syndicales libérales. En imposant un double scrutin, il menacerait le paritarisme conventionn</description>
+      <mots_cles_identifies>
+        <mot_cle>réforme</mot_cle>
+        <mot_cle>loi</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="73" score="5" priorite="standard">
+      <titre>Les hospitalisations pour tentatives de suicide et mutilation toujours en augmentation en 2025</titre>
+      <url>http://www.infirmiers.com/profession-ide/actualite-sociale/les-hospitalisations-pour-tentatives-de-suicide-et-mutilation-toujours-en-augmentation-en-2025</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Fri, 15 May 2026 12:00:00 +0200</date_publication>
+      <description>Selon la Direction de la recherche, des études, de l’évaluation et des statistiques, le nombre d'hospitalisations pour tentatives de suicide et mutilations continue d'augmenter en 2025. Elle alerte de nouveau sur la situation des adolescentes et des jeunes femmes, particulièrement touchées. Les hosp</description>
+      <mots_cles_identifies>
+        <mot_cle>ide </mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="74" score="5" priorite="standard">
+      <titre>Infirmier : un métier au cœur des nouveaux enjeux du soin</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/infirmier-un-metier-au-coeur-des-nouveaux-enjeux-du-soin.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, May 19 17:48:00 CEST 2026</date_publication>
+      <description/>
+      <mots_cles_identifies>
+        <mot_cle>infirmier</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="75" score="5" priorite="standard">
+      <titre>AVEC L’ÉQUIPE RELAI, UNE TRANSITION HÔPITAL-DOMICILE EN DOUCEUR</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/avec-l-equipe-relai-une-transition-hopital-domicile-en-douceur.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Mon, Apr 27 14:29:00 CEST 2026</date_publication>
+      <description>Lancée en 2023 à Angers (Maine-et-Loire), l’équipe Relai accompagne des patients médicalement sortants mais en situation complexe, afin d’éviter des hospitalisations prolongées ou inutiles et de sécuriser leur retour à domicile. Encore en phase d’expérimentation, ce dispositif pluridisciplinaire a d</description>
+      <mots_cles_identifies>
+        <mot_cle>hôpital</mot_cle>
+        <mot_cle>loi</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="76" score="5" priorite="standard">
+      <titre>SANDRA PINEL, “ADDICT” AU PARTAGE</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/sandra-pinel-addict-au-partage.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Mon, Apr 27 11:53:00 CEST 2026</date_publication>
+      <description>IPA et patiente experte Sandra Pinel est infirmière en pratique avancée et patiente experte en addictologie. Elle exerce actuellement dans un centre de soins, d’accompagnement et de prévention en addictologie et dans un centre d’accueil et d’accompagnement à la réduction des risques pour usagers de </description>
+      <mots_cles_identifies>
+        <mot_cle>infirmière</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="77" score="3" priorite="standard">
+      <titre>L’UNITÉ D’ACCUEIL PÉDIATRIQUE ENFANTS EN DANGER DE BONDY</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/l-unite-d-accueil-pediatrique-enfants-en-danger-de-bondy.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Mon, Mar 30 16:50:00 CEST 2026</date_publication>
+      <description>À l’hôpital Jean-Verdier (AP-HP) de Bondy (Seine-Saint-Denis), l’Unité d’Accueil Pédiatrique Enfants en Danger (UAPED) est un lieu ressource de prise en charge pluridisciplinaire des mineurs victimes de violence ou susceptibles de l’être. Fonctionnelle sous sa forme actuelle depuis novembre 2024, el</description>
+      <mots_cles_identifies>
+        <mot_cle>hôpital</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="78" score="3" priorite="standard">
+      <titre>LE DÉFI DE LA MOBILITÉ INTERNE À L’HÔPITAL PUBLIC</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/le-dafi-de-la-mobilita-interne-a-l-hapital-public.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, Mar 24 17:32:00 CET 2026</date_publication>
+      <description>Cet article d’OSM présente la constitution d’une Équipe Secours Polaire (ESP) apte à assurer des remplacements au pied levé dans différents services requérant des compétences spécifiques. Par Noura Zaghmouri et Valérie Ratajczak.</description>
+      <mots_cles_identifies>
+        <mot_cle>hôpital</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="79" score="2" priorite="standard">
+      <titre>Un référentiel dédié aux pratiques d'imagerie éco-responsables</titre>
+      <url>http://www.infirmiers.com/services/cadre-de-sante/un-referentiel-dedie-aux-pratiques-dimagerie-eco-responsables</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 19 May 2026 16:30:05 +0200</date_publication>
+      <description>Les soins éco‑responsables constituent le premier levier de décarbonation du secteur, avec près de 40% des émissions. L’Agence Nationale de la Performance sanitaire et médicosociale (ANAP) publie, à cet effet, un référentiel pour une imagerie et une radiologie éco-responsables. Les soins éco-respons</description>
+      <mots_cles_identifies>
+        <mot_cle>établissement</mot_cle>
+      </mots_cles_identifies>
+      <categories/>
+    </article>
+    <article id="80" score="0" priorite="standard">
+      <titre>Sutures cutanées : techniques, indications et surveillance</titre>
+      <url>https://www.actusoins.com/sutures-cutanees-techniques-indications-et-surveillance.html</url>
+      <source>ActuSoins</source>
+      <date_publication>Thu, 11 Jun 2026 09:14:00 +0000</date_publication>
+      <description>La suture cutanée rapproche les berges des plaies pour favoriser leur cicatrisation tout en limitant le risque d'infection. Les indications varient selon la nature de la plaie (traumatique ou chirurgicale) et les caractéristiques du patient. Plusieurs techniques et matériaux sont utilisés, avec une </description>
+      <mots_cles_identifies/>
+      <categories>
+        <categorie>Plaies et cicatrisation</categorie>
+        <categorie>Pratiques</categorie>
+        <categorie>Cicatrisation</categorie>
+        <categorie>Plaies</categorie>
+        <categorie>suture cutanée</categorie>
+        <categorie>Sutures cutanées</categorie>
+      </categories>
+    </article>
+    <article id="81" score="0" priorite="standard">
+      <titre>Classement des spécialités dans le groupe Pédiatrie 2026 </titre>
+      <url>https://www.whatsupdoc-lemag.fr/node/98880</url>
+      <source>What's Up Doc</source>
+      <date_publication>Mon, 09 Feb 2026 14:38:14 +0000</date_publication>
+      <description>Classement des spécialités dans le groupe Pédiatrie 2026 Luc Angevert lun 09/02/2026 - 15:38 Tableau Classement des spécialités dans le groupe Pédiatrie en 2026 Classement Spécialité Rang médian des internes Évolution (rang vs 2025) 1 Pédiatrie 3535 - Année 2025-2026 Groupe de spécialitée Pédiatrie</description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+    <article id="82" score="0" priorite="standard">
+      <titre>Classement des spécialités dans le groupe Hématologie, Oncologie, Hépato-gastro-entérologie 2026 </titre>
+      <url>https://www.whatsupdoc-lemag.fr/node/98872</url>
+      <source>What's Up Doc</source>
+      <date_publication>Mon, 09 Feb 2026 14:28:05 +0000</date_publication>
+      <description>Classement des spécialités dans le groupe Hématologie, Oncologie, Hépato-gastro-entérologie 2026 Luc Angevert lun 09/02/2026 - 15:28 Tableau Classement des spécialités dans le groupe Hématologie, Oncologie, Hépato-gastro-entérologie en 2026 Classement Spécialités Rang médian des internes Évolution (</description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+    <article id="83" score="0" priorite="standard">
+      <titre>Participez à la première Journée nationale des soins éco-responsables !</titre>
+      <url>http://www.infirmiers.com/services/cadre-de-sante/participez-la-premiere-journee-nationale-des-soins-eco-responsables</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 02 Jun 2026 17:00:05 +0200</date_publication>
+      <description>Rendez-vous le 30 juin 2026, au Beffroi de Montrouge, pour la première Journée nationale des soins éco-responsables. Le Shift project, think tank dédié aux défis climat-énergie, estime à 8% la part des activités sanitaires responsables d’émissions de gaz à effet de serre. Les soins éco‑responsables </description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+    <article id="84" score="0" priorite="standard">
+      <titre>Déserts médicaux : les Français renoncent de plus en plus aux soins </titre>
+      <url>http://www.infirmiers.com/profession-ide/deserts-medicaux-les-francais-renoncent-de-plus-en-plus-aux-soins</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Thu, 28 May 2026 09:15:00 +0200</date_publication>
+      <description>Spécialités sous tension, délais allongés, recours aux urgences faute de solutions… La deuxième édition des «Cartes de France de l’accès aux soins», publiée par Doctolib avec la Fondation Jean-Jaurès, dresse le portrait d’un système de soins confronté à des inégalités de santé persistantes. L’accès </description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+    <article id="85" score="0" priorite="standard">
+      <titre>Des lunettes connectées pour transformer notre quotidien professionnel</titre>
+      <url>http://www.infirmiers.com/services/cadre-de-sante/des-lunettes-connectees-pour-transformer-notre-quotidien-professionnel</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Wed, 20 May 2026 09:15:00 +0200</date_publication>
+      <description>Le potentiel des lunettes connectées est tel que ses applications pourraient s’avérer très utiles pour la pratique des managers de santé. Ces dispositifs peuvent en effet générer une une multitude d’usages pour notre quotidien professionnel, notamment grâce à une caméra intégrée qui nous projette da</description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+    <article id="86" score="0" priorite="standard">
+      <titre>15 pays unis dans la lutte contre l’alcoolisation fœtale</titre>
+      <url>http://www.infirmiers.com/profession-ide/15-pays-unis-dans-la-lutte-contre-lalcoolisation-foetale</url>
+      <source>Infirmiers.com</source>
+      <date_publication>Tue, 19 May 2026 12:30:05 +0200</date_publication>
+      <description>Réunis mi-mai en Irlande à l’initiative de SAF France (Syndrome d’Alcoolisation Fœtale France), des parlementaires, professionnels de santé et représentants associatifs de quinze pays ont posé les bases d’une coopération internationale contre les troubles causés par l’alcoolisation fœtale. Une premi</description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+    <article id="87" score="0" priorite="standard">
+      <titre>SECRET PROFESSIONNEL-DÉROGATION</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/secret-professionnel-derogation.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, Apr 21 17:09:00 CEST 2026</date_publication>
+      <description>Un patient peut-il m’autoriser à informer un membre de sa famille et donc, me délier du secret professionnel ?</description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+    <article id="88" score="0" priorite="standard">
+      <titre>LA FIN D'UNE BELLE AVENTURE ÉDITORIALE</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/la-fin-d-une-belle-aventure-et-un-dernier-numaro-dadia-a-la-recherche-paramadicale.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Wed, Mar 25 0:03:00 CET 2026</date_publication>
+      <description>Avec la parution du numéro 309-310, l'aventure d'Objectif Soins &amp; Management touche à sa fin. Ce dernier numéro consacre ses dernières pages à un thème essentiel : la recherche paramédicale.</description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+    <article id="89" score="0" priorite="standard">
+      <titre>LA RECHERCHE PARAMÉDICALE EN ACTION : LE DOSSIER D’OSM</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/la-recherche-paramedicale-en-action-le-dossier-d-osm.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, Mar 24 18:01:00 CET 2026</date_publication>
+      <description>La recherche paramédicale s’affirme comme un pilier indispensable au développement des savoirs cliniques et managériaux en santé. Elle promeut la collaboration pluriprofessionnelle, l’évaluation des pratiques et l’innovation, contribuant ainsi à la qualité, à la sécurité des soins et à la reconnaiss</description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+    <article id="90" score="0" priorite="standard">
+      <titre>LE SERIOUS GAME « COM’ UN JE » POUR L’E‑ÉDUCATION THÉRAPEUTIQUE DU PATIENT</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/le-serious-game-aa-com-un-jea-a-pour-l-e-aducation-tharapeutique-du-patient.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Tue, Mar 24 16:53:00 CET 2026</date_publication>
+      <description>Le serious game « Com’ un Je » mobilise la gamification et offre une expérience immersive pour renforcer la communication soignant‑patient. Présentation par Jean-Denis Aubry, Axel Malescassier et Claire-Émilie Olivier dans le dernier numéro d’OSM.</description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+    <article id="91" score="0" priorite="standard">
+      <titre>LA PLACE DU CORPS DANS LA RELATION DE SOIN</titre>
+      <url>https://www.espaceinfirmier.fr/actualites/la-place-du-corps-dans-la-relation-de-soin.html</url>
+      <source>Espace Infirmier</source>
+      <date_publication>Wed, Mar 11 11:59:00 CET 2026</date_publication>
+      <description>Nous ne pouvons habiter la relation de soin qu’en habitant notre propre corps et écouter ce qui se joue dans ce rapport entre soignant et patient. Cette relation se vit et s’éprouve à même le corps ; c’est là que se vérifie l’éthique du soignant, là aussi où il se confronte à elle. Un dossier coordo</description>
+      <mots_cles_identifies/>
+      <categories/>
+    </article>
+  </articles>
+</veille_sante>

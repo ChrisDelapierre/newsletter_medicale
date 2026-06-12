@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🩺 Veille Personnel de Santé - 2026-06-12</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* === Extensions pour les cartes d'articles === */
+        .stats-bar {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+        .stat-item {
+            background: #e8f0fe;
+            color: #1a73e8;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        .stat-item strong { font-size: 1.2em; }
+        .stat-item.alert { background: #fce8e6; color: #d93025; }
+        .stat-item.warn { background: #fef7e0; color: #e37400; }
+
+        .source-grid {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .source-tag {
+            background: white;
+            border: 1px solid #e0e0e0;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.8em;
+            color: #555;
+        }
+        .source-tag strong { color: #1a73e8; }
+
+        .keyword-strip {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .kw-tag {
+            background: #e8f0fe;
+            color: #1a73e8;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 500;
+        }
+
+        .article-card {
+            background: #f8f9fa;
+            border-left: 4px solid #dadce0;
+            border-radius: 0 8px 8px 0;
+            padding: 16px 20px;
+            margin: 12px 0;
+            transition: background 0.15s;
+        }
+        .article-card:hover { background: #f1f3f4; }
+        .article-card.priority-high { border-left-color: #d93025; }
+        .article-card.priority-medium { border-left-color: #e37400; }
+        .article-card.priority-low { border-left-color: #1a73e8; }
+
+        .article-title {
+            font-size: 1em;
+            font-weight: 600;
+            color: #202124;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 4px;
+        }
+        .article-title:hover { color: #1a73e8; text-decoration: underline; }
+
+        .article-score {
+            display: inline-block;
+            font-size: 0.7em;
+            font-weight: 700;
+            padding: 2px 10px;
+            border-radius: 10px;
+            margin-left: 8px;
+        }
+        .article-score.high { background: #fce8e6; color: #d93025; }
+        .article-score.medium { background: #fef7e0; color: #e37400; }
+        .article-score.low { background: #e8f0fe; color: #1a73e8; }
+
+        .article-meta {
+            font-size: 0.8em;
+            color: #5f6368;
+            margin: 4px 0 6px;
+        }
+        .article-meta .source-name { font-weight: 600; color: #1a73e8; }
+
+        .article-desc {
+            font-size: 0.9em;
+            color: #444;
+            margin: 6px 0;
+        }
+
+        .article-kws {
+            margin-top: 6px;
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+        .article-kws .kw {
+            background: #f1f3f4;
+            padding: 2px 8px;
+            border-radius: 8px;
+            font-size: 0.7em;
+            color: #555;
+        }
+        .article-kws .kw.multi { background: #fef7e0; color: #92400e; font-weight: 600; }
+
+        .section-title {
+            color: #1a73e8;
+            font-size: 1.2em;
+            margin: 28px 0 12px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #1a73e8;
+        }
+
+        .summary-box {
+            background: #e8f0fe;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 16px 0;
+        }
+        .summary-box ul { margin: 6px 0 6px 20px; }
+        .summary-box li { margin: 3px 0; }
+
+        @media (max-width: 600px) {
+            .article-card { padding: 12px 14px; }
+            .stats-bar { gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>🩺 Veille Personnel de Santé — 12 juin 2026</h1>
+        <p>Actualités prioritaires sur les conditions de travail, salaires, pénurie de personnel, EHPAD, retraite et réformes.</p>
+        <p style="font-size:0.85em;color:#666;margin-top:4px;">Sources : ActuSoins, What's Up Doc, Infirmiers.com, Espace Infirmier, Hospimedia, Directions.fr</p>
+
+        <!-- Statistiques -->
+        <div class="stats-bar">
+            <span class="stat-item">📰 Total : <strong>91</strong> articles</span>
+            <span class="stat-item alert">🔴 Haute priorité : <strong>22</strong></span>
+            <span class="stat-item warn">🟠 Priorité moyenne : <strong>18</strong></span>
+            <span class="stat-item">🔵 Standard : <strong>51</strong></span>
+        </div>
+
+        <!-- Sources -->
+        <div class="source-grid">
+            <span class="source-tag">ActuSoins : <strong>10</strong></span>
+            <span class="source-tag">What's Up Doc : <strong>10</strong></span>
+            <span class="source-tag">Infirmiers.com : <strong>46</strong></span>
+            <span class="source-tag">Espace Infirmier : <strong>25</strong></span>
+            <span class="source-tag">Hospimedia : <strong>—</strong></span>
+            <span class="source-tag">Directions.fr : <strong>—</strong></span>
+        </div>
+
+        <h2 class="section-title">🔴 Priorité Haute — Score ≥ 20</h2>
+
+        <div class="article-card priority-high">
+            <a href="https://www.actusoins.com/urgences-psychiatriques-de-sainte-anne-les-infirmiers-en-greve.html" class="article-title" target="_blank">
+                Urgences psychiatriques de Sainte-Anne : les infirmiers en grève
+                <span class="article-score high">58 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">ActuSoins</span> — 
+                Mots-clés : personnel, aide-soignant, infirmier, hôpital
+            </div>
+            <div class="article-desc">Les infirmiers des urgences psychiatriques de l'hôpital Sainte-Anne sont en grève pour dénoncer leurs conditions de travail et le manque de personnel.</div>
+            <div class="article-kws">
+                <span class="kw">personnel</span>
+                <span class="kw">as</span>
+                <span class="kw">infirmier</span>
+                <span class="kw">hôpital</span>
+            </div>
+        </div>
+
+        <div class="article-card priority-high">
+            <a href="https://www.infirmiers.com/ebola-les-infirmieres-en-premiere-ligne-particulierement-exposees.html" class="article-title" target="_blank">
+                Ebola : les infirmières en première ligne, particulièrement exposées
+                <span class="article-score high">55 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Infirmiers.com</span> — 
+                Mots-clés : pénurie, personnel, infirmière
+            </div>
+            <div class="article-desc">Les infirmières sont en première face face au risque Ebola, avec une exposition particulièrement élevée et des moyens de protection souvent insuffisants.</div>
+            <div class="article-kws">
+                <span class="kw">pénurie</span>
+                <span class="kw">personnel</span>
+                <span class="kw">infirmière</span>
+                <span class="kw multi">★ multi-source</span>
+            </div>
+        </div>
+
+        <div class="article-card priority-high">
+            <a href="https://www.actusoins.com/evolution-des-competences-infirmieres-une-etude-de-la-macsf-pointe-les-reserves.html" class="article-title" target="_blank">
+                Évolution des compétences infirmières : une étude de la MACSF pointe les réserves
+                <span class="article-score high">51 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">ActuSoins</span> — 
+                Mots-clés : infirmier, infirmière, médecin, formation
+            </div>
+            <div class="article-desc">Une étude de la MACSF révèle les réserves des professionnels face à l'évolution des compétences infirmières.</div>
+            <div class="article-kws">
+                <span class="kw">infirmier</span>
+                <span class="kw">infirmière</span>
+                <span class="kw">médecin</span>
+                <span class="kw">formation</span>
+            </div>
+        </div>
+
+        <div class="article-card priority-high">
+            <a href="https://www.infirmiers.com/maisons-de-sante-pluriprofessionnelles-pourquoi-refuser-de-signer-lavenant.html" class="article-title" target="_blank">
+                Maisons de santé pluriprofessionnelles : pourquoi refuser de signer l'avenant n°
+                <span class="article-score high">45 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Infirmiers.com</span> — 
+                Mots-clés : aide-soignant, infirmier, infirmière
+            </div>
+            <div class="article-desc">Analyse des raisons du refus de signer le nouvel avenant des maisons de santé pluriprofessionnelles.</div>
+            <div class="article-kws">
+                <span class="kw">as</span>
+                <span class="kw">infirmier</span>
+                <span class="kw">infirmière</span>
+                <span class="kw multi">★ multi-source</span>
+            </div>
+        </div>
+
+        <div class="article-card priority-high">
+            <a href="https://www.espaceinfirmier.fr/actualites/attirer-les-professionnels-de-sante-une-perspective-generationnelle.html" class="article-title" target="_blank">
+                ATTIRER LES PROFESSIONNELS DE SANTÉ, UNE PERSPECTIVE GÉNÉRATIONNELLE
+                <span class="article-score high">45 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Espace Infirmier</span> — 
+                Mots-clés : recrutement, docteur, formation
+            </div>
+            <div class="article-kws">
+                <span class="kw">recrutement</span>
+                <span class="kw">docteur</span>
+                <span class="kw">formation</span>
+                <span class="kw multi">★ multi-source</span>
+            </div>
+        </div>
+
+        <div class="article-card priority-high">
+            <a href="https://www.espaceinfirmier.fr/actualites/infirmieres-puericultrices-a-quand-un-exercice-a-la-hauteur-des-competences.html" class="article-title" target="_blank">
+                INFIRMIÈRES PUÉRICULTRICES : À QUAND UN EXERCICE À LA HAUTEUR DES COMPÉTENCES ?
+                <span class="article-score high">45 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Espace Infirmier</span> — 
+                Mots-clés : aide-soignant, infirmière, formation
+            </div>
+            <div class="article-kws">
+                <span class="kw">as</span>
+                <span class="kw">infirmière</span>
+                <span class="kw">formation</span>
+                <span class="kw multi">★ multi-source</span>
+            </div>
+        </div>
+
+        <div class="article-card priority-high">
+            <a href="https://www.infirmiers.com/etudes-infirmieres-la-reforme-doit-renforcer-la-formation-clinique.html" class="article-title" target="_blank">
+                Études infirmières : la réforme doit renforcer la formation clinique
+                <span class="article-score high">43 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Infirmiers.com</span> — 
+                Mots-clés : infirmier, infirmière, formation, réforme
+            </div>
+            <div class="article-desc">La réforme des études infirmières doit mieux préparer les étudiants à la pratique clinique.</div>
+            <div class="article-kws">
+                <span class="kw">infirmier</span>
+                <span class="kw">infirmière</span>
+                <span class="kw">formation</span>
+                <span class="kw">réforme</span>
+            </div>
+        </div>
+
+        <div class="article-card priority-high">
+            <a href="https://www.espaceinfirmier.fr/actualites/soins-infirmiers-mutation-universitaire-de-la-formation.html" class="article-title" target="_blank">
+                SOINS INFIRMIERS : MUTATION UNIVERSITAIRE DE LA FORMATION
+                <span class="article-score high">42 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Espace Infirmier</span> — 
+                Mots-clés : infirmier, infirmière, formation, loi
+            </div>
+            <div class="article-desc">La formation des infirmiers évolue vers un modèle universitaire, une mutation profonde qui interroge la profession.</div>
+            <div class="article-kws">
+                <span class="kw">infirmier</span>
+                <span class="kw">infirmière</span>
+                <span class="kw">formation</span>
+                <span class="kw">loi</span>
+            </div>
+        </div>
+
+        <div class="article-card priority-high">
+            <a href="https://www.espaceinfirmier.fr/actualites/entree-en-ehpad-preparer-la-transition-des-personnes-souffrant-de-troubles-psy.html" class="article-title" target="_blank">
+                ENTRÉE EN EHPAD : PRÉPARER LA TRANSITION DES PERSONNES SOUFFRANT DE TROUBLES PSY
+                <span class="article-score high">42 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Espace Infirmier</span> — 
+                Mots-clés : EHPAD, établissement
+            </div>
+            <div class="article-desc">Comment préparer au mieux l'entrée en EHPAD des personnes souffrant de troubles psychiques.</div>
+            <div class="article-kws">
+                <span class="kw">ehpad</span>
+                <span class="kw">établissement</span>
+                <span class="kw multi">★ multi-source</span>
+            </div>
+        </div>
+
+        <div class="article-card priority-high">
+            <a href="https://www.infirmiers.com/quand-le-cadre-donne-du-sens-au-travail-de-ses-equipes.html" class="article-title" target="_blank">
+                Quand le cadre donne du sens au travail de ses équipes
+                <span class="article-score high">40 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Infirmiers.com</span> — 
+                Mots-clés : aide-soignant, qualité de vie au travail
+            </div>
+            <div class="article-desc">Le rôle du cadre de santé dans la qualité de vie au travail et le sens donné aux missions des équipes soignantes.</div>
+            <div class="article-kws">
+                <span class="kw">as</span>
+                <span class="kw">qualité de vie</span>
+                <span class="kw multi">★ multi-source</span>
+            </div>
+        </div>
+
+        <div class="article-card priority-high">
+            <a href="https://www.infirmiers.com/au-bord-du-monde-un-film-qui-interroge-la-relation-de-soin-en-psychiatrie.html" class="article-title" target="_blank">
+                « Au bord du monde » : un film qui interroge la relation de soin en psychiatrie
+                <span class="article-score high">40 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Infirmiers.com</span> — 
+                Mots-clés : aide-soignant, infirmière, hôpital
+            </div>
+            <div class="article-desc">Un documentaire qui explore la relation de soin en psychiatrie et le quotidien des soignants.</div>
+            <div class="article-kws">
+                <span class="kw">as</span>
+                <span class="kw">infirmière</span>
+                <span class="kw">hôpital</span>
+                <span class="kw multi">★ multi-source</span>
+            </div>
+        </div>
+
+        <h2 class="section-title">🟠 Priorité Moyenne — Score 10-19</h2>
+
+        <div class="article-card priority-medium">
+            <a href="https://www.actusoins.com/la-nouvelle-presidente-du-cefiec-isabelle-bayle-fixe-ses-priorites.html" class="article-title" target="_blank">
+                La nouvelle présidente du Cefiec, Isabelle Bayle, fixe ses priorités
+                <span class="article-score medium">20 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">ActuSoins</span>
+            </div>
+            <div class="article-desc">Isabelle Bayle, nouvelle présidente du Cefiec (Comité d'entente des professions infirmières et cadres), présente ses priorités pour la formation des cadres de santé.</div>
+        </div>
+
+        <div class="article-card priority-medium">
+            <a href="https://www.infirmiers.com/la-fonction-publique-hospitaliere-gagnerait-a-ne-plus-subir-sa-politique-contractuelle.html" class="article-title" target="_blank">
+                La fonction publique hospitalière gagnerait à ne plus subir sa politique contractuelle
+                <span class="article-score medium">18 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Infirmiers.com</span>
+            </div>
+            <div class="article-desc">Analyse de la Cour des comptes sur la place croissante des contractuels à l'hôpital : un tiers des effectifs d'ici 2033.</div>
+        </div>
+
+        <div class="article-card priority-medium">
+            <a href="https://www.infirmiers.com/le-secteur-associatif-offrirait-de-meilleures-conditions-de-travail-que-le-prive-lucratif.html" class="article-title" target="_blank">
+                Le secteur associatif offrirait de meilleures conditions de travail que le privé lucratif
+                <span class="article-score medium">16 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Infirmiers.com</span>
+            </div>
+            <div class="article-desc">Une étude du Cnam révèle que les structures privées non lucratives offrent de meilleures conditions d'emploi que le privé lucratif dans le secteur du soin.</div>
+        </div>
+
+        <div class="article-card priority-medium">
+            <a href="https://www.infirmiers.com/le-cout-du-relayage-est-compense-des-la-premiere-annee-par-les-economies-generees.html" class="article-title" target="_blank">
+                Le coût du relayage est « compensé dès la première année » par les économies générées
+                <span class="article-score medium">15 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Infirmiers.com</span>
+            </div>
+            <div class="article-desc">Le relayage Baluchon : pour 1€ investi, le dispositif de répit génère 1,30€ d'économies en un an, tout en permettant le maintien à domicile.</div>
+        </div>
+
+        <div class="article-card priority-medium">
+            <a href="https://www.infirmiers.com/l-ehpad-notre-dame-de-la-ferrage-sort-d-une-periode-de-turbulences-financieres-et-humaines.html" class="article-title" target="_blank">
+                L'Ehpad Notre-Dame-de-la-Ferrage sort d'une période de turbulences financières et humaines
+                <span class="article-score medium">15 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">Infirmiers.com</span>
+            </div>
+            <div class="article-desc">La chambre régionale des comptes alerte après l'audit des comptes d'un EHPAD du Vaucluse qui traverse une période difficile.</div>
+        </div>
+
+        <div class="article-card priority-medium">
+            <a href="https://www.whatsupdoc-lemag.fr/un-plan-d-actions-pour-la-securite-des-soignants-est-lance-en-paca.html" class="article-title" target="_blank">
+                Un plan d'actions pour la sécurité des soignants est lancé en Provence-Alpes-Côte d'Azur
+                <span class="article-score medium">12 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">What's Up Doc</span>
+            </div>
+            <div class="article-desc">Une « stratégie globale » de sécurisation de l'exercice des professionnels du soin lancée par l'ARS, la région et la préfecture.</div>
+        </div>
+
+        <div class="article-card priority-medium">
+            <a href="https://www.actusoins.com/le-ministere-de-la-sante-revoit-les-maquettes-des-diplomes-d-etudes-specialisees.html" class="article-title" target="_blank">
+                Le ministère de la Santé revoit les maquettes des diplômes d'études spécialisées
+                <span class="article-score medium">10 pts</span>
+            </a>
+            <div class="article-meta">
+                <span class="source-name">ActuSoins</span>
+            </div>
+            <div class="article-desc">Révision des maquettes des DES et FST : plusieurs spécialités ajoutées, introduction de stages sans encadrement universitaire.</div>
+        </div>
+
+        <h2 class="section-title">📊 Synthèse</h2>
+
+        <div class="summary-box">
+            <p><strong>Résumé de la semaine — Personnel de santé :</strong></p>
+            <ul>
+                <li><strong>🔴 Grève aux urgences psychiatriques</strong> de Sainte-Anne — conditions de travail dénoncées</li>
+                <li><strong>🟠 Contractuels à l'hôpital</strong> — la Cour des comptes tire la sonnette d'alarme (1/3 des effectifs en 2033)</li>
+                <li><strong>🟠 Conditions de travail</strong> — le secteur associatif mieux noté que le privé lucratif</li>
+                <li><strong>🟢 Réforme des études</strong> infirmières — mutation universitaire en cours</li>
+                <li><strong>🟢 EHPAD</strong> — entrée en établissement des personnes avec troubles psy</li>
+                <li><strong>🟢 Sécurité des soignants</strong> — plan d'actions en PACA</li>
+                <li><strong>🟢 Qualité de vie au travail</strong> — le cadre de santé comme moteur de sens</li>
+            </ul>
+            <p style="margin-top:8px;font-size:0.85em;color:#666;">91 articles analysés — Sources : ActuSoins, What's Up Doc, Infirmiers.com, Espace Infirmier</p>
+        </div>
+
+        <p style="font-size:0.85em;color:#666;margin-top:4px;">
+            <strong>Barème de score :</strong> EHPAD, salaire, pénurie, retraite (+15) · Aide-soignant (+10) · Infirmier, médecin, qualité de vie (+5) · Multi-source (+25) · Engagement réseaux (+25)
+        </p>
+
+        <div class="footer">
+            <p>Veille Personnel de Santé — Généré le 12 juin 2026 par Hermes Agent</p>
+            <p>Sources : ActuSoins, What's Up Doc, Infirmiers.com, Espace Infirmier, Hospimedia, Directions.fr</p>
+            <p>Données structurées disponibles en <a href="veille_personnel.xml">XML</a></p>
+        </div>
+
+    </div>
+</body>
+</html>
