@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr Kevin — Les Idées Marquantes</title>
+<link rel="stylesheet" href="style_veille.css">
+<style>
+/* Spécifique à la page Dr Kevin */
+.doctor-header {
+  background: linear-gradient(135deg, #1a365d, #2b6cb0);
+  color: white;
+  padding: 36px 28px;
+  border-radius: 14px;
+  margin-bottom: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.doctor-header::before {
+  content: "🦷";
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 4em;
+  opacity: 0.15;
+}
+.doctor-header h1 { font-size: 2em; margin-bottom: 6px; }
+.doctor-header .subtitle { opacity: 0.85; font-size: 1em; }
+.doctor-header .header-meta { margin-top: 14px; }
+.doctor-header .header-meta span {
+  background: rgba(255,255,255,0.15);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.85em;
+}
+
+/* Grille d'articles visuels */
+.visuel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.visuel-card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.visuel-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.visuel-card .card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  background: #edf2f7;
+}
+
+.visuel-card .card-body {
+  padding: 16px 20px 20px;
+}
+
+.visuel-card .card-title {
+  font-size: 1.05em;
+  font-weight: 650;
+  color: #2d3748;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.visuel-card .card-date {
+  font-size: 0.78em;
+  color: #a0aec0;
+  margin-bottom: 10px;
+}
+
+.visuel-card .card-idea {
+  font-size: 0.9em;
+  color: #4a5568;
+  line-height: 1.65;
+  text-align: justify;
+}
+
+.visuel-card .card-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #2b6cb0;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.visuel-card .card-link:hover { color: #1a365d; text-decoration: underline; }
+
+/* Section thèmes */
+.themes-section {
+  background: white;
+  border-radius: 14px;
+  padding: 28px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  margin-bottom: 28px;
+}
+.themes-section h2 {
+  font-size: 1.3em;
+  color: #1a365d;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ebf4ff;
+}
+.theme-tag {
+  display: inline-block;
+  background: #ebf4ff;
+  color: #2b6cb0;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  margin: 4px 6px 4px 0;
+  font-weight: 500;
+}
+
+/* Citation block */
+.citation {
+  background: #f7fafc;
+  border-left: 4px solid #2b6cb0;
+  padding: 16px 20px;
+  margin: 16px 0;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: #2d3748;
+  font-size: 0.95em;
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .visuel-grid { grid-template-columns: 1fr; }
+  .doctor-header h1 { font-size: 1.5em; }
+  .visuel-card .card-img { height: 180px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <div class="doctor-header">
+    <h1>🦷 Dr Kevin — Les Idées Marquantes</h1>
+    <p class="subtitle">Les posts les plus marquants du dentiste <strong>docteur.kevin</strong> sur Instagram</p>
+    <div class="header-meta">
+      <span>📸 12 posts analysés</span>
+      <span>📅 Fév 2025 – Juin 2026</span>
+      <span>🦷 Pédagogie & Prévention</span>
+    </div>
+  </div>
+
+  <!-- Thèmes clés -->
+  <div class="themes-section">
+    <h2>🧠 Ce qu'il faut retenir de Dr Kevin</h2>
+
+    <div class="citation">
+      <strong>Règle n°1 en dentisterie :</strong> « On soigne toujours la gencive et le parodonte avant les dents. Sans fondations solides, rien ne tient. »
+    </div>
+
+    <p style="margin-bottom:14px;color:#4a5568;line-height:1.7;">
+      Le Dr Kevin est un chirurgien-dentiste qui utilise Instagram pour <strong>éduquer, prévenir et sensibiliser</strong> 
+      ses patients. Ses posts alternent entre <strong>conseils pratiques</strong> (santé bucco-dentaire, soins préventifs),
+      <strong>moments de vie</strong> (son quotidien au cabinet) et <strong>messages inspirants</strong>.
+    </p>
+
+    <div>
+      <span class="theme-tag">🦷 Prévention bucco-dentaire</span>
+      <span class="theme-tag">❤️ Parodontologie</span>
+      <span class="theme-tag">🔬 Innovation & techniques</span>
+      <span class="theme-tag">📖 Pédagogie patient</span>
+      <span class="theme-tag">💪 Motivation & inspiration</span>
+      <span class="theme-tag">🎯 Vie de chirurgien-dentiste</span>
+    </div>
+  </div>
+
+  <!-- Grille des articles -->
+  <h2 style="font-size:1.3em;color:#1a365d;margin-bottom:16px;">📸 Les posts</h2>
+
+  <div class="visuel-grid">
+
+    <!-- Article 1 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_01.jpg" alt="Pauvre assistante 🥹" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">Pauvre assistante 🥹</div>
+        <div class="card-date">12 juin 2026</div>
+        <div class="card-idea">Un regard tendre et humoristique sur le métier d'assistante dentaire, avec une pointe d'empathie pour le quotidien au cabinet.</div>
+        <a class="card-link" href="https://www.instagram.com/p/DZfiOMwNYef" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 2 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_02.jpg" alt="C'est terrible" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">C'est terrible</div>
+        <div class="card-date">11 juin 2026</div>
+        <div class="card-idea">Un constat sur une situation préoccupante rencontrée au cabinet, rappelant l'importance de consultations régulières.</div>
+        <a class="card-link" href="https://www.instagram.com/p/DZdRyhht-U9" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 3 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_03.jpg" alt="Nouveautés pour améliorer les soins" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">À la recherche de nouveautés pour améliorer mes soins ☺️</div>
+        <div class="card-date">10 juin 2026</div>
+        <div class="card-idea">Le Dr Kevin teste un nouveau casque innovant pour améliorer ses soins. Il promet un debrief à sa communauté — une démarche d'amélioration continue au service des patients.</div>
+        <a class="card-link" href="https://www.instagram.com/p/DZatPIotlie" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 4 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_04.jpg" alt="Coucher de soleil" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">🌅🐈</div>
+        <div class="card-date">4 juin 2026</div>
+        <div class="card-idea">Un instant de douceur et de simplicité — un coucher de soleil accompagné de son chat. Rappel que derrière le chirurgien-dentiste il y a aussi une vie, des passions et des moments de calme.</div>
+        <a class="card-link" href="https://www.instagram.com/p/DZLPDokjTyI" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 5 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_05.jpg" alt="😂" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">😂</div>
+        <div class="card-date">1 juin 2026</div>
+        <div class="card-idea">L'humour comme outil de connexion avec sa communauté. Un moment léger qui rend la profession accessible et humaine.</div>
+        <a class="card-link" href="https://www.instagram.com/p/DZDN2edtvhE" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 6 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_06.jpg" alt="Une journée dans ma vie de dentiste" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">Une journée dans ma vie de dentiste</div>
+        <div class="card-date">1 juin 2026</div>
+        <div class="card-idea">Immersion dans le quotidien d'un chirurgien-dentiste : les soins, la relation patient, l'organisation du cabinet. Un format « day in the life » qui humanise la profession.</div>
+        <a class="card-link" href="https://www.instagram.com/p/DZB6a3yCLTl" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 7 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_07.jpg" alt="Transmettre sa passion" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">Transmettre sa passion 🦷</div>
+        <div class="card-date">29 mai 2026</div>
+        <div class="card-idea">La transmission comme moteur : partager son amour du métier, former la relève et éduquer les patients. Une vision noble de la dentisterie qui va bien au-delà du soin technique.</div>
+        <a class="card-link" href="https://www.instagram.com/p/DY6z3vaN8W3" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 8 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_08.jpg" alt="Votre gencive vous dit merci" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">Votre gencive vous dit merci 👄</div>
+        <div class="card-date">28 mai 2026</div>
+        <div class="card-idea">Un message de prévention centré sur la santé gingivale. Le Dr Kevin rappelle l'importance de la gencive, souvent négligée au profit des dents. Message clé : une gencive saine = des dents solides.</div>
+        <a class="card-link" href="https://www.instagram.com/p/DY4DX8stAQt" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 9 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_09.jpg" alt="Abonne toi pour ne jamais avoir de problèmes dentaires" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">Abonne toi pour ne jamais avoir de problèmes dentaires 🙏</div>
+        <div class="card-date">26 mai 2026</div>
+        <div class="card-idea">La prévention par l'information : le Dr Kevin invite à le suivre pour éviter les problèmes dentaires. Une stratégie de prévention grand public qui rend la santé bucco-dentaire accessible à tous.</div>
+        <a class="card-link" href="https://www.instagram.com/p/DYz2L2nN1Mg" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 10 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_10.jpg" alt="Couronnes à l'étranger" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">35 ans, couronnes à l'étranger : des regrets</div>
+        <div class="card-date">21 janvier 2026</div>
+        <div class="card-idea">
+          <strong>Message clé :</strong> « On soigne toujours la gencive et le parodonte avant les dents. Sans fondations solides, rien ne tient. »<br><br>
+          Un cas édifiant de soins réalisés à l'étranger qui aboutissent à des regrets. Le Dr Kevin insiste sur l'importance des <strong>fondations parodontales</strong> avant toute restauration. #dentiste #parodontite
+        </div>
+        <a class="card-link" href="https://www.instagram.com/p/DTyKbw8Dd3Q" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 11 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_11.jpg" alt="Message inspirant" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">Ne laisse jamais personne te dire que tu n'es pas capable</div>
+        <div class="card-date">11 décembre 2025</div>
+        <div class="card-idea">
+          Un message puissant sur la persévérance : « Si tu veux vraiment quelque chose, bats-toi pour l'avoir. Rien ni personne ne doit t'arrêter. »<br><br>
+          Au-delà de la dentisterie, c'est une philosophie de vie que le Dr Kevin partage avec sa communauté — un médecin qui soigne aussi par les mots.
+        </div>
+        <a class="card-link" href="https://www.instagram.com/p/DSIwqmKDauQ" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+    <!-- Article 12 -->
+    <div class="visuel-card">
+      <img class="card-img" src="drkevin_images/drk_12.jpg" alt="Le cab" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">Le cab 🤝🦷</div>
+        <div class="card-date">27 février 2025</div>
+        <div class="card-idea">
+          Crédit photo : @v.jeremy.graphics. Une collaboration artistique qui mêle l'univers du taxi à celui de la dentisterie — preuve que la créativité n'a pas de limites, même dans le domaine médical.
+        </div>
+        <a class="card-link" href="https://www.instagram.com/p/DGlsTtSII-J" target="_blank">Voir sur Instagram →</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>Page générée depuis le flux RSS Instagram de <strong>docteur.kevin</strong> via le pipeline Hermes → n8n</p>
+  <p style="margin-top:4px;">Dernière mise à jour : 15 juin 2026</p>
+</footer>
+
+</body>
+</html>
