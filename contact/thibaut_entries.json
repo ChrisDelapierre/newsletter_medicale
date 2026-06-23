@@ -3,5 +3,10 @@
     "date": "23/06/2026",
     "channel": "email",
     "content": "Page créée — en attente des premiers prompts de Thibaut"
+  },
+  {
+    "date": "23/06/2026",
+    "channel": "openwebui",
+    "content": "Test de validation du pipeline — ce message sera pushé"
   }
 ]
