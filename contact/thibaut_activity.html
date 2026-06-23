@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suivi des prompts — Thibaut Arnol</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #0f1319;
+  color: #e2e8f0;
+  line-height: 1.7;
+}
+.container { max-width: 860px; margin: 0 auto; padding: 24px 20px; }
+header {
+  background: linear-gradient(135deg, #4c1d95, #1e40af);
+  color: white; padding: 28px 24px;
+  border-radius: 14px; margin-bottom: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+header h1 { font-size: 1.6em; margin-bottom: 6px; }
+header p { opacity: 0.85; font-size: 0.93em; }
+.header-meta { margin-top: 12px; display: flex; gap: 12px; flex-wrap: wrap; font-size: 0.82em; }
+.header-meta span { background: rgba(255,255,255,0.12); padding: 4px 14px; border-radius: 20px; backdrop-filter: blur(4px); }
+.stats-bar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
+.stat-chip { background: #151b23; border: 1px solid #212936; padding: 8px 16px; border-radius: 10px; font-size: 0.88em; }
+.stat-chip strong { color: #818cf8; }
+.stat-chip .num { color: #60a5fa; font-weight: 700; }
+.timeline { position: relative; padding-left: 28px; }
+.timeline::before { content: ''; position: absolute; left: 8px; top: 0; bottom: 0; width: 2px; background: #212936; }
+.entry {
+  background: #151b23; border: 1px solid #212936; border-radius: 12px; padding: 18px;
+  margin-bottom: 14px; position: relative; transition: border-color 0.2s;
+}
+.entry:hover { border-color: #818cf8; }
+.entry::before {
+  content: ''; position: absolute; left: -24px; top: 22px;
+  width: 12px; height: 12px; border-radius: 50%;
+  background: #818cf8; border: 2px solid #0f1319;
+}
+.entry-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 6px; }
+.entry-date { font-size: 0.82em; color: #94a3b8; }
+.entry-channel { font-size: 0.75em; padding: 2px 10px; border-radius: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+.channel-email { background: #1e3a5f; color: #60a5fa; }
+.channel-discord { background: #312e81; color: #818cf8; }
+.channel-openwebui { background: #1a4731; color: #34d399; }
+.entry-content { color: #cbd5e1; font-size: 0.93em; white-space: pre-wrap; word-wrap: break-word; }
+.entry-empty {
+  background: #151b23; border: 1px dashed #212936; border-radius: 12px;
+  padding: 32px; text-align: center; color: #64748b; font-size: 0.95em;
+}
+.entry-empty p { margin-top: 6px; font-size: 0.85em; }
+footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid #212936; font-size: 0.78em; color: #475569; text-align: center; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>📋 Suivi des prompts — Thibaut Arnol</h1>
+  <p>Historique des interactions et suggestions</p>
+  <div class="header-meta">
+    <span>🔄 Mis à jour : 23/06/2026 à 12:44</span>
+    <span>📬 Contact : thibaut.arnol@outlook.fr</span>
+  </div>
+</header>
+
+<div class="stats-bar">
+  <div class="stat-chip">
+    <span class="num">1</span> prompt(s) reçu(s)
+  </div>
+  <div class="stat-chip">
+    Dernière activité : <strong>23/06/2026</strong>
+  </div>
+</div>
+
+<div class="timeline">
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-date">23/06/2026</span>
+      <span class="entry-channel channel-email">Email</span>
+    </div>
+    <div class="entry-content">Page créée — en attente des premiers prompts de Thibaut</div>
+  </div>
+</div>
+
+<footer>
+  Généré automatiquement — Hermes Agent &middot; <a href="https://github.com/ChrisDelapierre/newsletter_medicale" style="color:#475569;">newsletter_medicale</a>
+</footer>
+
+</div>
+</body>
+</html>
