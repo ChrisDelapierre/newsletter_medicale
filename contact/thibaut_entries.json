@@ -1,7 +1,22 @@
 [
   {
-    "date": "23/06/2026",
+    "date": "25/06/2026",
     "channel": "email",
-    "content": "Page opérationnelle — en attente des premiers prompts de Thibaut"
+    "content": "Page opérationnelle — en attente des premiers prompts"
+  },
+  {
+    "date": "25/06/2026 à 15:00",
+    "channel": "skill",
+    "content": "premiere suggestion de test"
+  },
+  {
+    "date": "25/06/2026 à 18:45",
+    "channel": "skill",
+    "content": "je souhaite changer la police sur la page de veille médicale"
+  },
+  {
+    "date": "25/06/2026 à 19:02",
+    "channel": "skill",
+    "content": "Christophe: je souhaite que Thibaut ai accès directement au bot en messages privés et non sur le serveur."
   }
 ]
