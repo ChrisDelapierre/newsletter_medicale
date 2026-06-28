@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🪵 La Gazette du Toit — Actualités BTP</title>
+    <link rel="stylesheet" href="style_veille.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: #0a0e14;
+        }
+        header.gazette-header {
+            background: linear-gradient(135deg, #1a3a2a, #0d5e3a);
+            color: white;
+            padding: 32px 24px;
+            border-radius: 14px;
+            margin-bottom: 28px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+            text-align: center;
+        }
+        header.gazette-header h1 {
+            font-size: 2em;
+            margin-bottom: 8px;
+        }
+        header.gazette-header p {
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+        .header-meta {
+            margin-top: 14px;
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-size: 0.85em;
+        }
+        .header-meta span {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 4px 14px;
+            border-radius: 20px;
+            backdrop-filter: blur(4px);
+        }
+        .article-card.is-priority {
+            border-left: 4px solid #22c55e;
+        }
+        .article-card h3 {
+            color: #4ade80;
+            font-size: 1.15em;
+            margin-bottom: 6px;
+        }
+        .article-card .article-text {
+            font-size: 0.95em;
+            color: #cbd5e1;
+            line-height: 1.6;
+            margin: 8px 0;
+        }
+        .article-card .badge-bois {
+            background: #166534;
+            color: #86efac;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            display: inline-block;
+            margin-right: 4px;
+        }
+        .article-card .badge-soleil {
+            background: #92400e;
+            color: #fbbf24;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            display: inline-block;
+            margin-right: 4px;
+        }
+        .article-card .badge-innovation {
+            background: #1e3a5f;
+            color: #60a5fa;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            display: inline-block;
+            margin-right: 4px;
+        }
+        .article-card .badge-foret {
+            background: #14532d;
+            color: #a3e635;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            display: inline-block;
+            margin-right: 4px;
+        }
+        .article-image {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 10px 0;
+            border: 1px solid #1e3a2a;
+        }
+        .section-title {
+            font-size: 1.3em;
+            color: #4ade80;
+            margin: 28px 0 16px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #166534;
+        }
+        .bonnes-pratiques {
+            background: #0d1f17;
+            border: 1px solid #166534;
+            border-radius: 12px;
+            padding: 18px;
+            margin: 14px 0;
+        }
+        .bonnes-pratiques ol {
+            margin: 10px 0 0 20px;
+            color: #cbd5e1;
+        }
+        .bonnes-pratiques ol li {
+            margin-bottom: 6px;
+            line-height: 1.5;
+        }
+        .bonnes-pratiques h4 {
+            color: #4ade80;
+            margin-bottom: 4px;
+        }
+        .chiffre-cle {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #4ade80;
+            display: inline;
+        }
+        .footer-gazette {
+            text-align: center;
+            margin-top: 30px;
+            padding: 18px;
+            background: #0d1f17;
+            border-radius: 12px;
+            border: 1px solid #166534;
+            color: #94a3b8;
+            font-size: 0.85em;
+        }
+        .tag-bar {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+        .tag-bar .tag {
+            background: #0d1f17;
+            color: #86efac;
+            border: 1px solid #166534;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.82em;
+        }
+        a.source-link {
+            color: #60a5fa;
+            text-decoration: none;
+            font-size: 0.85em;
+        }
+        a.source-link:hover {
+            text-decoration: underline;
+        }
+        .stats-rapides {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .stats-rapides .stat {
+            background: #0d1f17;
+            border: 1px solid #166534;
+            border-radius: 10px;
+            padding: 14px;
+            text-align: center;
+        }
+        .stats-rapides .stat .nombre {
+            font-size: 1.6em;
+            font-weight: 700;
+            color: #4ade80;
+        }
+        .stats-rapides .stat .label {
+            font-size: 0.8em;
+            color: #94a3b8;
+            margin-top: 2px;
+        }
+        .sub-section {
+            color: #86efac;
+            font-size: 1.1em;
+            margin: 22px 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- Header -->
+    <header class="gazette-header">
+        <h1>🪵 La Gazette du Toit</h1>
+        <p>Actualités des métiers de la charpente, couverture, menuiserie et construction bois</p>
+        <div class="header-meta">
+            <span>📅 28 juin 2026</span>
+            <span>📰 3 articles</span>
+            <span>📍 Auvergne-Rhône-Alpes</span>
+            <span>🌡️ Canicule · 🔨 BTP · 🌲 Forêt</span>
+        </div>
+    </header>
+
+    <!-- Stats rapides -->
+    <div class="stats-rapides">
+        <div class="stat">
+            <div class="nombre">70%</div>
+            <div class="label">Artisans adaptant leurs horaires</div>
+        </div>
+        <div class="stat">
+            <div class="nombre">130M€</div>
+            <div class="label">Pour rafraîchir les écoles</div>
+        </div>
+        <div class="stat">
+            <div class="nombre">57M</div>
+            <div class="label">Vues campagne bois TV</div>
+        </div>
+        <div class="stat">
+            <div class="nombre">+8%</div>
+            <div class="label">Construction bois en AURA</div>
+        </div>
+    </div>
+
+    <!-- Tag bar -->
+    <div class="tag-bar">
+        <span class="tag">#canicule</span>
+        <span class="tag">#sécurité</span>
+        <span class="tag">#btp</span>
+        <span class="tag">#constructionbois</span>
+        <span class="tag">#prévention</span>
+        <span class="tag">#auvergnerhonealpes</span>
+        <span class="tag">#toiture</span>
+        <span class="tag">#innovation</span>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- ARTICLE 1 — CANICULE (Principal) -->
+    <!-- ============================================================ -->
+    <h2 class="section-title">🌡️ À LA UNE — Canicule et chantiers</h2>
+
+    <div class="article-card is-priority">
+        <h3>🚧 Canicule : 70 % des artisans du bâtiment adaptent déjà leurs horaires</h3>
+        <p class="article-text">
+            Alors que la France traverse un épisode caniculaire intense, les professionnels du bâtiment s'organisent face à des températures records. Selon une enquête de la CAPEB menée en cette fin juin 2026, <strong>70 % des artisans du bâtiment ont déjà adapté leurs horaires de travail</strong> pour faire face aux fortes chaleurs. Une proportion qui montre que le secteur est en première ligne des conséquences du changement climatique.
+        </p>
+        <p class="article-text">
+            Dans plusieurs départements placés en vigilance rouge, les préfets ont pris des arrêtés pour <strong>suspendre les chantiers aux heures les plus chaudes</strong> de la journée, sur incitation du ministre du Travail Jean-Pierre Farandou. Pour les couvreurs, charpentiers et zingueurs, le problème est particulièrement aigu&thinsp;: travailler en hauteur sous un soleil de plomb multiplie les risques — déshydratation, coups de chaleur, troubles de la vigilance — dans des métiers où la concentration est essentielle à la sécurité.
+        </p>
+        <p class="article-text">
+            Selon l'enquête CAPEB, les aléas climatiques provoquent des retards de chantier dans 6 cas sur 10 et des pertes d'activité significatives pour les TPE du bâtiment. Le syndicat demande des <strong>aides adaptées</strong> en cas d'arrêt forcé des chantiers.
+        </p>
+
+        <div class="bonnes-pratiques">
+            <h4>✅ 6 bonnes pratiques pour les chantiers caniculaires</h4>
+            <ol>
+                <li><strong>Décaler les horaires</strong>&thinsp;: commencer plus tôt (6h-7h) et arrêter entre 12h et 16h</li>
+                <li><strong>Hydratation</strong>&thinsp;: eau fraîche en quantité suffisante sur chaque chantier</li>
+                <li><strong>Zones d'ombre</strong>&thinsp;: prévoir des espaces de pause ombragés ou climatisés</li>
+                <li><strong>Rotation des tâches</strong>&thinsp;: alterner les postes les plus exposés au soleil</li>
+                <li><strong>Surveillance</strong>&thinsp;: être attentif aux signes de coup de chaleur chez ses collègues</li>
+                <li><strong>EPI adaptés</strong>&thinsp;: vêtements clairs, légers et respirants</li>
+            </ol>
+        </div>
+
+        <div class="article-card" style="margin-top:10px;">
+            <h3>🏫 130 millions d'euros pour rafraîchir les écoles</h3>
+            <p class="article-text">
+                Parallèlement, l'État, EDF, la Banque des Territoires et La Banque Postale ont annoncé <strong>plus de 130 millions d'euros</strong> pour financer en urgence des équipements de rafraîchissement et des travaux dans les écoles. Un signal fort pour le secteur du bâtiment, qui place l'adaptation climatique au cœur des chantiers à venir.
+            </p>
+        </div>
+
+        <div class="article-card" style="margin-top:10px;">
+            <h3>⚖️ Plusieurs préfets arrêtent les chantiers aux heures les plus chaudes</h3>
+            <p class="article-text">
+                Le ministre du Travail a incité les préfets à prendre des arrêtés pour suspendre les chantiers dans les départements en vigilance rouge. Plusieurs territoires ont déjà appliqué ces mesures, provoquant des réorganisations dans les entreprises du BTP.
+            </p>
+        </div>
+
+        <div class="article-meta">
+            <span class="badge-soleil">Canicule</span>
+            <span class="badge-bois">BTP</span>
+            <span class="badge-soleil">Prévention</span>
+            <span>24-26 juin 2026</span>
+            <a href="https://www.batiweb.com/actualites/prevention/canicule-artisans-batiment-horaires-chaleur-capeb-48981" class="source-link">Batiweb →</a>
+            <a href="https://www.batiweb.com/actualites/prevention/canicule-arret-chantiers-btp-vigilance-rouge-48977" class="source-link">Batiweb →</a>
+            <a href="https://www.batiweb.com/actualites/renovation-energetique/canicule-130-millions-euros-rafraichir-ecoles-48996" class="source-link">Batiweb →</a>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- ARTICLE 2 — SILENTROOF (Toiture innovante) -->
+    <!-- ============================================================ -->
+    <h2 class="section-title">🏗️ INNOVATION — Toitures et matériaux</h2>
+
+    <div class="article-card">
+        <h3>🔇 SilentRoof et SilentRoof SOLAR : des toitures métalliques acoustiques sous ATEx</h3>
+        <p class="article-text">
+            Le fabricant <strong>Joris Ide</strong> propose deux nouvelles solutions de toitures métalliques acoustiques avec <strong>SilentRoof</strong> et sa version solaire <strong>SilentRoof SOLAR</strong>. Ces systèmes bénéficient d'une <strong>Appréciation Technique d'Expérimentation (ATEx)</strong>, gage de qualité et de conformité aux normes en vigueur.
+        </p>
+        <p class="article-text">
+            Ces toitures allient trois qualités essentielles pour les professionnels&thinsp;:
+        </p>
+        <ul style="color:#cbd5e1; margin: 8px 0 8px 20px; line-height:1.7;">
+            <li><strong>Performance acoustique</strong>&thinsp;: réduction significative des nuisances sonores, idéale pour les bâtiments en zone urbaine ou proches d'habitations</li>
+            <li><strong>Légèreté</strong>&thinsp;: facilité de pose et réduction des contraintes sur la charpente</li>
+            <li><strong>Sobriété</strong>&thinsp;: design épuré et intégration photovoltaïque possible avec SilentRoof SOLAR</li>
+        </ul>
+        <p class="article-text">
+            Cette innovation répond à une demande croissante des maîtres d'ouvrage pour des bâtiments à la fois performants et respectueux de l'environnement sonore. Pour les couvreurs et zingueurs, c'est une nouvelle solution technique à intégrer dans leur palette de compétences.
+        </p>
+        <div class="article-meta">
+            <span class="badge-innovation">Innovation</span>
+            <span class="badge-bois">Couverture</span>
+            <span class="badge-innovation">ATEx</span>
+            <span>26 juin 2026</span>
+            <a href="https://www.batiweb.com/actualites/publi-redactionnels/silentroof-silentroof-solar-toitures-acoustiques-atex-48963" class="source-link">Batiweb →</a>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- ARTICLE 3 — CAMPAGNE BOIS -->
+    <!-- ============================================================ -->
+    <h2 class="section-title">🌲 FILIÈRE BOIS — Promotion et économie</h2>
+
+    <div class="article-card">
+        <h3>📺 « Nos forêts envoient du bois » : la campagne TV cumule 57 millions de vues</h3>
+        <p class="article-text">
+            Lancée en septembre 2025 par <strong>France Bois Forêt</strong> et le <strong>CODIFAB</strong>, la campagne de communication « Nos forêts envoient du bois » a rencontré un succès retentissant. Diffusée à la télévision, sur les plateformes de streaming (TF1+, M6+, Prime) et les réseaux sociaux, elle a cumulé <strong>plus de 57 millions de vues</strong> en quelques mois.
+        </p>
+        <p class="article-text">
+            Une enquête post-campagne menée auprès d'un échantillon représentatif de 1 000 Français révèle que :
+        </p>
+        <ul style="color:#cbd5e1; margin: 8px 0 8px 20px; line-height:1.7;">
+            <li><strong>67 %</strong> des répondants ont apprecié le spot</li>
+            <li><strong>78 %</strong> d'adhésion chez les personnes se déclarant éco-responsables</li>
+            <li><strong>82 %</strong> d'opinion favorable chez ceux ayant vu la campagne plusieurs fois</li>
+        </ul>
+        <p class="article-text">
+            Forte de ce succès, la campagne se prolonge en 2026 avec une nouvelle vague TV. L'objectif&thinsp;: rappeler le <strong>rôle central de la filière forêt-bois</strong> dans les enjeux environnementaux, économiques et sociétaux. Pour les professionnels de la construction bois et de la menuiserie, c'est une vitrine précieuse qui valorise leurs savoir-faire auprès du grand public.
+        </p>
+        <div class="article-meta">
+            <span class="badge-foret">Filière bois</span>
+            <span class="badge-foret">Promotion</span>
+            <span class="badge-bois">Construction bois</span>
+            <span>Mai-juin 2026</span>
+            <a href="https://franceboisforet.fr/2026/05/28/nos-forets-envoient-du-bois-nouvelle-vague-tv/" class="source-link">France Bois Forêt →</a>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- ACTUALITÉS FLASH -->
+    <!-- ============================================================ -->
+    <h2 class="section-title">⚡ En bref — Les autres actualités de la filière</h2>
+
+    <div class="article-card">
+        <h3>📉 Prix des bois sur pied en forêt privée : recul de 4 % en 2025</h3>
+        <p class="article-text">
+            Après une hausse en 2024, les prix des bois sur pied en forêt privée ont reculé de 4 % en 2025, selon France Bois Forêt. Un indicateur à suivre pour les professionnels de la première transformation du bois.
+        </p>
+        <div class="article-meta">
+            <span class="badge-foret">Économie</span>
+            <span>Mai 2026</span>
+            <a href="https://franceboisforet.fr/2026/05/26/communique-de-presse-prix-des-bois-sur-pied-en-foret-privee-un-recul-de-4-en-2025-apres-la-hausse-de-2024/" class="source-link">France Bois Forêt →</a>
+        </div>
+    </div>
+
+    <div class="article-card">
+        <h3>🗳️ Artisans du bâtiment : la CAPEB Isère mobilisée pour les élections municipales</h3>
+        <p class="article-text">
+            À l'approche des élections municipales, la CAPEB Isère a remis son manifeste national aux candidats du département. Accès aux marchés publics, rénovation énergétique, urbanisme&thinsp;: autant de sujets qui impactent directement le quotidien des artisans du bâtiment.
+        </p>
+        <div class="article-meta">
+            <span class="badge-bois">CAPEB</span>
+            <span class="badge-soleil">Politique</span>
+            <span>Isère</span>
+            <a href="https://www.capeb-isere.fr/artisans-du-batiment-la-capeb-isere-mobilisee-a-lapproche-des-elections-municipales/" class="source-link">CAPEB Isère →</a>
+        </div>
+    </div>
+
+    <div class="article-card">
+        <h3>🌲 Fondation France Bois Forêt : découvrez les lauréats 2025</h3>
+        <p class="article-text">
+            La Fondation France Bois Forêt a dévoilé les lauréats de sa 6ᵉ édition, récompensant des projets innovants au service de la filière forêt-bois. Une initiative qui soutient la recherche, l'innovation et la transmission des savoir-faire.
+        </p>
+        <div class="article-meta">
+            <span class="badge-foret">Fondation</span>
+            <span class="badge-innovation">Innovation</span>
+            <a href="https://franceboisforet.fr/les-laureats-2025-6e-edition-fondation-fbf/" class="source-link">France Bois Forêt →</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-gazette">
+        <p><strong>🪵 La Gazette du Toit</strong> — Édition du 28 juin 2026</p>
+        <p>Sources&thinsp;: Batiweb · France Bois Forêt · CAPEB · Joris Ide · Ministère du Travail</p>
+        <p style="margin-top:6px; font-size:0.8em; color:#6b7280;">
+            Actualités collectées et mises en forme automatiquement via Hermes Agent · www.blogfromalpllm.ghost.io
+        </p>
+    </div>
+
+</div>
+</body>
+</html>
